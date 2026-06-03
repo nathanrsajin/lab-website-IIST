@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Development and Analysis of Image Fusion Techniques for Satellite Images",
+    "description": "Research on combining complementary satellite image sources to improve spatial, spectral and semantic interpretability for downstream remote sensing analysis.",
+    "fundingAgency": "IIST-ISRO Project",
+    "collaborators": "Dr. Sarvesh Kumar, IIST",
+    "duration": "Multi-year research project",
+    "status": "Active / archival record",
+    "impact": "Improves interpretability of satellite imagery for Earth observation and space applications.",
+    "expectedOutcomes": "Validated fusion algorithms, comparative studies, datasets or reproducible pipelines, and publications."
+  },
+  {
+    "title": "Object-Based High Resolution Optical Image Analysis for Landslide and LULC Classification",
+    "description": "Object-based image analysis for high-resolution optical imagery, with emphasis on landslide mapping and land-use/land-cover classification.",
+    "fundingAgency": "IIST-ISRO Project",
+    "collaborators": "Dr. Tapas R Martha, NRSC Hyderabad; Dr. Ramarao, IIST",
+    "duration": "Multi-year research project",
+    "status": "Active / archival record",
+    "impact": "Supports disaster assessment, environmental monitoring and geospatial decision support.",
+    "expectedOutcomes": "Classification workflows, validation reports, research papers and deployable analysis methods."
+  },
+  {
+    "title": "Developing a Virtual Reality Model for Disaster Simulation",
+    "description": "Immersive simulation model for disaster scenarios, enabling spatial reasoning, visualization, training and communication.",
+    "fundingAgency": "IIST-ISRO Project",
+    "collaborators": "Shri Sashidar Reddy, NRSC Hyderabad",
+    "duration": "Multi-year research project",
+    "status": "Active / archival record",
+    "impact": "Creates safer and repeatable environments for disaster preparedness and training.",
+    "expectedOutcomes": "VR prototype, interaction studies, scenario library and publications."
+  }
+]

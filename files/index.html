@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of Computer Vision and Virtual Reality Lab (CVVR Lab), Department of Avionics, IIST, Thiruvananthapuram, India. Research in AI, Deep Learning, Remote Sensing, Image Processing, and VR.">
+  <meta name="keywords" content="CVVR Lab, IIST, Computer Vision, Virtual Reality, Deep Learning, Deepak Mishra, Avionics, ISRO, Space Technology">
+  <meta property="og:title" content="Computer Vision and Virtual Reality Lab | IIST">
+  <meta property="og:description" content="Research in computer vision, deep learning, signal processing, and VR for space applications. Led by Prof. Deepak Mishra.">
+  <meta property="og:image" content="images/logo.png">
+  <meta property="og:type" content="website">
+  <title>CVVR Lab | IIST Thiruvananthapuram</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Loader Screen -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <img class="loader-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="CVVR Lab home">
+      <img class="brand-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <span>CVVR Lab</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="people.html">People</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Space perception background visualization"></div>
+      <div class="hero-content">
+        <img class="hero-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+        <p class="eyebrow">Department of Avionics | Indian Institute of Space Science and Technology</p>
+        <h1>Computer Vision & Virtual Reality Lab</h1>
+        <p class="hero-copy">Pioneering algorithms and visual perception pipelines at the intersection of deep learning, remote sensing, and immersive simulation environments for next-generation aerospace missions.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="research.html">Explore Research</a>
+          <a class="btn" href="publications.html">View Publications</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metric Band -->
+    <section class="metric-band" aria-label="Research achievements counters">
+      <article>
+        <strong class="counter" data-target="181">0</strong>
+        <span>Publications</span>
+      </article>
+      <article>
+        <strong class="counter" data-target="2400">0</strong>
+        <span>Citations</span>
+      </article>
+      <article>
+        <strong class="counter" data-target="25">0</strong>
+        <span>h-index</span>
+      </article>
+      <article>
+        <strong class="counter" data-target="3">0</strong>
+        <span>Funded Projects</span>
+      </article>
+      <article>
+        <strong class="counter" data-target="16">0</strong>
+        <span>Years of Research</span>
+      </article>
+      <article>
+        <strong class="counter" data-target="12">0</strong>
+        <span>Lab Members</span>
+      </article>
+    </section>
+
+    <!-- About Lab -->
+    <section class="section two-column" id="about">
+      <div>
+        <p class="eyebrow">About The Lab</p>
+        <h2>Perception systems for Earth observation and immersive computing.</h2>
+      </div>
+      <div class="rich-text">
+        <p>The CVVR Lab at IIST supports advanced research at the intersection of computer vision, deep neural network modeling, virtual environments, and avionics applications. Our primary mission is to solve high-stakes visual inference challenges relevant to the space sector, disaster management, and medical analytics.</p>
+        <p>Led by Prof. Deepak Mishra, the group combines robust mathematical formulation with state-of-the-art computational infrastructure. The laboratory is equipped with thermal sensing systems, stereo cameras, high-throughput GigE interfaces, immersive VR setups, and dedicated GPU computing nodes.</p>
+        <p>We actively collaborate with government research institutions (including ISRO centers and NRSC), top-tier academic institutes, and industrial partners to translate deep learning algorithms into deployable technology for high-resolution optical analysis, landslide monitoring, and training simulation environments.</p>
+      </div>
+    </section>
+
+    <!-- Research Highlights -->
+    <section class="section section-alt">
+      <div class="section-heading">
+        <p class="eyebrow">Research Themes</p>
+        <h2>Visual intelligence for space and scientific sensing</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <span class="badge">Satellite analysis</span>
+          <h3>Satellite Image Processing</h3>
+          <p>Multi-sensor pansharpening, image fusion, and high-resolution classification pipelines for optical and radar remote sensing.</p>
+          <a href="research.html" class="text-link">Read more &rarr;</a>
+        </article>
+        <article class="card">
+          <span class="badge">Deep Learning</span>
+          <h3>Deep Visual Learning</h3>
+          <p>Developing architectures for object detection, multi-target tracking, segmentation, and zero-shot categorization under extreme environments.</p>
+          <a href="research.html" class="text-link">Read more &rarr;</a>
+        </article>
+        <article class="card">
+          <span class="badge">Virtual Reality</span>
+          <h3>Virtual Environments</h3>
+          <p>Synthesizing immersive simulators, interaction paradigms, and training tools for space exploration and disaster response simulations.</p>
+          <a href="research.html" class="text-link">Read more &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Principal Investigator Summary -->
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Principal Investigator</p>
+        <h2>Meet the Director</h2>
+      </div>
+      <div class="profile-panel">
+        <div class="avatar large">DM</div>
+        <div>
+          <h2>Prof. Deepak Mishra</h2>
+          <p class="small-meta">Professor & Head, Department of Avionics, IIST</p>
+          <p style="margin-top: 0.5rem; max-width: 700px;">Prof. Mishra conducts research in computer vision, image processing, deep machine learning, biometric security, and computational neuroscience. He holds a PhD from IIT Kanpur and has spearheaded multiple ISRO-sponsored programs.</p>
+          <div class="chip-row">
+            <span>Computer Vision</span>
+            <span>Deep Learning</span>
+            <span>Remote Sensing</span>
+            <span>Virtual Reality</span>
+          </div>
+          <a class="text-link" href="pi.html" style="margin-top: 0.8rem;">View PI Portfolio &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Summary -->
+    <section class="section section-alt">
+      <div class="section-heading row">
+        <div>
+          <p class="eyebrow">Timeline</p>
+          <h2>Latest News & Updates</h2>
+        </div>
+        <a class="btn" href="news.html">All News Updates</a>
+      </div>
+      <div class="timeline" id="homeNews" data-limit="3"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img class="footer-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+        <span>CVVR Lab</span>
+      </div>
+      <div class="footer-text">
+        <p>Computer Vision and Virtual Reality Lab, Department of Avionics, IIST</p>
+        <p>Valiamala, Thiruvananthapuram, Kerala 695547, India</p>
+        <p>&copy; <span id="year"></span> CVVR Lab. Built for GitHub Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

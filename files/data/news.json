@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-06-03",
+    "type": "General",
+    "title": "Official CVVR Lab Website Launched",
+    "summary": "We are proud to launch the new web portal of the Computer Vision and Virtual Reality Lab on GitHub Pages. The site features interactive publication searching, project dashboards, and detailed facility directories."
+  },
+  {
+    "date": "2026-05-12",
+    "type": "Research",
+    "title": "New Paper on Deep Learning-Based Object Tracking Accepted",
+    "summary": "The lab's research on real-time visual object tracking for high-velocity avionics scenarios has been accepted in a leading computer vision journal. Co-authored by Dr. Deepak Mishra and CVVR scholars."
+  },
+  {
+    "date": "2026-03-24",
+    "type": "Workshop",
+    "title": "National Workshop on VR and Disaster Simulation Successfully Hosted",
+    "summary": "The CVVR Lab organized a 3-day hand-on workshop on Virtual Reality technologies, disaster management modeling, and 3D environment synthesis. Over 50 researchers from space agencies and academia attended."
+  },
+  {
+    "date": "2026-01-10",
+    "type": "Honor",
+    "title": "Prof. Deepak Mishra Appointed Head of Department of Avionics",
+    "summary": "Prof. Deepak Mishra has taken over as the Head of the Department of Avionics at the Indian Institute of Space Science and Technology (IIST). The entire lab congratulates him on this role!"
+  },
+  {
+    "date": "2025-11-18",
+    "type": "Project",
+    "title": "IIST-ISRO Satellite Image Fusion Project Completed",
+    "summary": "Our joint project with ISRO on 'Development and Analysis of Image Fusion Techniques for Satellite Images' successfully concluded. The final deliverables include new pansharpening algorithms and visual evaluation metrics."
+  },
+  {
+    "date": "2025-08-01",
+    "type": "General",
+    "title": "New Research Scholars Join CVVR Lab",
+    "summary": "We welcome our incoming batch of PhD and MTech research scholars to the group. They will be working on advanced deep learning architectures, hyperspectral remote sensing, and immersive virtual environments."
+  }
+]

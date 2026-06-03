@@ -1,0 +1,1824 @@
+{
+  "metadata": {
+    "owner": "Prof. Deepak Mishra",
+    "lab": "Computer Vision and Virtual Reality Lab",
+    "expectedPublicationCount": 181,
+    "lastManualSeed": "2026-06-03",
+    "sourcePlan": [
+      "OpenAlex API (ID: A5086817031)"
+    ],
+    "note": "Automatically retrieved and categorized from OpenAlex API."
+  },
+  "publications": [
+    {
+      "title": "An Integrated Multi-modal Data Acquisition System for Ultrasound Imaging",
+      "authors": "Gajendra Singh, Deepak Mishra, Santhakumar Mohan, Rengarajan Rajagopal, Rahul Choudhary, Alok Sharma, Pushpinder Singh Khera",
+      "venue": "Unknown Venue",
+      "year": 2025,
+      "doi": "10.36227/techrxiv.176287986.61077075/v1",
+      "url": "https://doi.org/10.36227/techrxiv.176287986.61077075/v1",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Collaborative Robots in Operative Dentistry",
+      "authors": "Abhinav sharma, Rahul Sagwal, Deepak Mishra, J. Ramkumar",
+      "venue": "IITK directions",
+      "year": 2025,
+      "doi": "10.1007/978-981-96-8606-3_8",
+      "url": "https://doi.org/10.1007/978-981-96-8606-3_8",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Combined FFT and Wavelet Analysis of Schlieren and Flame Luminosity Time-Series to Visualize Regions of Combustion Instability",
+      "authors": "Saumya Vilas Roy, Deepak Mishra, Rajesh Sadanandan",
+      "venue": "Unknown Venue",
+      "year": 2025,
+      "doi": "10.36227/techrxiv.173950915.52984530/v1",
+      "url": "https://doi.org/10.36227/techrxiv.173950915.52984530/v1",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Design and Validation of a LabVIEW-Based Ground Checkout System for Navigation Signal Generation Unit (NSGU)",
+      "authors": "Akshit Dahiya, A. Roy, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2025,
+      "doi": "10.36227/techrxiv.175613038.86874929/v1",
+      "url": "https://doi.org/10.36227/techrxiv.175613038.86874929/v1",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Development of Agro-Residue Polymer Composites With Enhanced Mechanical Strength and Extended Service Life",
+      "authors": "Deepak Mishra, Sushant Kumar, Suresh Chandra, Neelesh Chauhan, Vivak Kumar, Jaivir Singh, Vineet Sharma, Nishant Singh",
+      "venue": "Journal of Engineering Materials and Technology",
+      "year": 2025,
+      "doi": "10.1115/1.4070592",
+      "url": "https://doi.org/10.1115/1.4070592",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Efficient Self-Supervised Neural Architecture Search",
+      "authors": "Sri Aditya Deevi, Asish Kumar Mishra, Deepak Mishra, Ravi Kumar L, Bharat Kumar G.V.P, M. G.",
+      "venue": "Unknown Venue",
+      "year": 2025,
+      "doi": "10.1109/imcom64595.2025.10857490",
+      "url": "https://doi.org/10.1109/imcom64595.2025.10857490",
+      "type": "Conference",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Enhancing BoB cyclone precipitation nowcasting with deep learning: A convolutional LSTM approach using INSAT 3D data",
+      "authors": "Shweta Shukla, Shivangi Mishra, Deepak Mishra",
+      "venue": "Journal of Hydrology",
+      "year": 2025,
+      "doi": "10.1016/j.jhydrol.2025.133911",
+      "url": "https://doi.org/10.1016/j.jhydrol.2025.133911",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Enhancing Obstetric Ultrasonography Training with Augmented Reality: A HoloLens-Based Prenatal Ultrasound Simulator Using Real Fetal Volume",
+      "authors": "P. Ajay, Tithi Singh, Deepak Mishra, Apurva K. Srivastava, P. Aswathy, Veena R. Iyer",
+      "venue": "Unknown Venue",
+      "year": 2025,
+      "doi": "10.1109/gcon65540.2025.11173409",
+      "url": "https://doi.org/10.1109/gcon65540.2025.11173409",
+      "type": "Conference",
+      "area": "Virtual Reality"
+    },
+    {
+      "title": "Harnessing continual learning and equivariant GNNs for seizure detection in EEG time series",
+      "authors": "Ramzan Basheer, Deepak Mishra",
+      "venue": "Neurocomputing",
+      "year": 2025,
+      "doi": "10.1016/j.neucom.2025.131975",
+      "url": "https://doi.org/10.1016/j.neucom.2025.131975",
+      "type": "Conference",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Optimal Condition Evaluation for WNN Based Speckle Filtering Algorithms in SAR Image Denoising",
+      "authors": "G. Preethisree, V. Vivekanand, Deepak Mishra, R. Sethunadh",
+      "venue": "Sensing and Imaging",
+      "year": 2025,
+      "doi": "10.1007/s11220-025-00647-w",
+      "url": "https://doi.org/10.1007/s11220-025-00647-w",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Optimal Condition Evaluation for WNN Based Speckle Filtering Algorithms in SAR Image Denoising",
+      "authors": "G. Preethisree, V. Vivekanand, Deepak Mishra, R. Sethunadh",
+      "venue": "Research Square",
+      "year": 2025,
+      "doi": "10.21203/rs.3.rs-6115919/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-6115919/v1",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Siam-CLF: Object Tracking using Siamese Network",
+      "authors": "Ashish Kumar Gupta, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2025,
+      "doi": "10.1109/gcon65540.2025.11173294",
+      "url": "https://doi.org/10.1109/gcon65540.2025.11173294",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Survival Prediction in Lung Cancer through Multi-Modal Representation Learning",
+      "authors": "Aiman Farooq, Deepak Mishra, Santanu Chaudhury",
+      "venue": "Unknown Venue",
+      "year": 2025,
+      "doi": "10.1109/wacv61041.2025.00384",
+      "url": "https://doi.org/10.1109/wacv61041.2025.00384",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "A Novel Approach to\u00a0Docking System for\u00a0Autonomous Unmanned Aerial Vehicles",
+      "authors": "Pratik Gangapurwala, Ishani Singh, Shabda Satam, Jayashree Khanapuri, Deepak Mishra",
+      "venue": "Lecture notes in networks and systems",
+      "year": 2024,
+      "doi": "10.1007/978-981-99-7862-5_24",
+      "url": "https://doi.org/10.1007/978-981-99-7862-5_24",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "A Tiered Learning Framework for Self-Guided Engineering Design Education",
+      "authors": "Eliathamby Ambikairajah, Tharmarajah Thiruvaran, Vidhyasaharan Sethu, Deepak Mishra, Tharmakulasingam Sirojan",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "doi": "10.1109/educon60312.2024.10578840",
+      "url": "https://doi.org/10.1109/educon60312.2024.10578840",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "A deep learning framework for electrocardiogram (ECG) super resolution and arrhythmia classification",
+      "authors": "Christina Perinbam Kaniraja, Vani Devi M., Deepak Mishra",
+      "venue": "Research on Biomedical Engineering",
+      "year": 2024,
+      "doi": "10.1007/s42600-024-00343-w",
+      "url": "https://doi.org/10.1007/s42600-024-00343-w",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "A deep-learning approach for turbulence correction in free space optical communication with Laguerre\u2013Gaussian modes",
+      "authors": "Harsh Agarwal, Deepak Mishra, Ashok Kumar",
+      "venue": "Optics Communications",
+      "year": 2024,
+      "doi": "10.1016/j.optcom.2023.130249",
+      "url": "https://doi.org/10.1016/j.optcom.2023.130249",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Aligning Tiered Assessments With Course Learning Outcomes",
+      "authors": "Eliathamby Ambikairajah, Tharmakulasingam Sirojan, Vidhyasaharan Sethu, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "doi": "10.1109/tale62452.2024.10834314",
+      "url": "https://doi.org/10.1109/tale62452.2024.10834314",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Deep Efficient Data Association for Multi-Object Tracking: Augmented with SSIM-Based Ambiguity Elimination",
+      "authors": "Aswathy Prasannakumar, Deepak Mishra",
+      "venue": "Journal of Imaging",
+      "year": 2024,
+      "doi": "10.3390/jimaging10070171",
+      "url": "https://doi.org/10.3390/jimaging10070171",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Enhanced Survival Prediction in Head and Neck Cancer Using Convolutional Block Attention and Multimodal Data Fusion",
+      "authors": "Aiman Farooq, Utkarsh Sharma, Deepak Mishra",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024,
+      "doi": "10.48550/arxiv.2410.21831",
+      "url": "https://doi.org/10.48550/arxiv.2410.21831",
+      "type": "Conference",
+      "area": "Image Processing"
+    },
+    {
+      "title": "Estimating Non-Uniform Temperature Profiles in Combustion Systems using Laser Absorption Spectroscopy and Multi-Output Gaussian Process Regression",
+      "authors": "Saumya Vilas Roy, Rajesh Sadanandan, Rajesh Sadanandan, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "doi": "10.36227/techrxiv.173273629.91677656/v1",
+      "url": "https://doi.org/10.36227/techrxiv.173273629.91677656/v1",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Estimation of above ground biomass of mangrove forest plot using terrestrial laser scanner",
+      "authors": "Yeshwanth Kumar Adimoolam, Nithin D. Pillai, L. Gnanappazham, Deepak Mishra, V. K. Dadhwal",
+      "venue": "The Egyptian Journal of Remote Sensing and Space Science",
+      "year": 2024,
+      "doi": "10.1016/j.ejrs.2024.11.002",
+      "url": "https://doi.org/10.1016/j.ejrs.2024.11.002",
+      "type": "Conference",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Evaluation of UNet architecture variants for road network extraction from high resolution geospatial dataset",
+      "authors": "T. Jayakumar, Deepak Mishra, Anandakumar M. Ramiya, Bhargav Parulekar, C V Pranav, Jai G. Singla",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "doi": "10.1109/ingarss61818.2024.10984102",
+      "url": "https://doi.org/10.1109/ingarss61818.2024.10984102",
+      "type": "Conference",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Feature Compensation Network for Prototype-Based Cross-Modal Person Re-Identification",
+      "authors": "Nirmala Murali, Deepak Mishra",
+      "venue": "IEEE Access",
+      "year": 2024,
+      "doi": "10.1109/access.2024.3447708",
+      "url": "https://doi.org/10.1109/access.2024.3447708",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Integral Probability Metrics for\u00a0Perceptual Learning in\u00a0Generative Cross-Modal Person Re-Identification",
+      "authors": "Nirmala Murali, Deepak Mishra",
+      "venue": "Lecture notes in computer science",
+      "year": 2024,
+      "doi": "10.1007/978-3-031-78341-8_30",
+      "url": "https://doi.org/10.1007/978-3-031-78341-8_30",
+      "type": "Book Chapter",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Leveraging Auxiliary Classification for Rib Fracture Segmentation",
+      "authors": "G. Harini, Aiman Farooq, Deepak Mishra",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024,
+      "doi": "10.48550/arxiv.2411.09283",
+      "url": "https://doi.org/10.48550/arxiv.2411.09283",
+      "type": "Conference",
+      "area": "Medical Imaging"
+    },
+    {
+      "title": "Neural Pooling for\u00a0Graph Neural Networks",
+      "authors": "Sai Sree Harsha, Deepak Mishra",
+      "venue": "Lecture notes in computer science",
+      "year": 2024,
+      "doi": "10.1007/978-3-031-12700-7_18",
+      "url": "https://doi.org/10.1007/978-3-031-12700-7_18",
+      "type": "Book Chapter",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Phase-space Path Integral Approach to the Kinetics of Black Hole Phase Transition in Massive Gravity",
+      "authors": "C. Fairoos, T. K. Safir, Deepak Mishra",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024,
+      "doi": "10.48550/arxiv.2407.09616",
+      "url": "https://doi.org/10.48550/arxiv.2407.09616",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Phase-space path integral approach to the kinetics of black hole phase transition in massive gravity",
+      "authors": "C. Fairoos, T. K. Safir, Deepak Mishra",
+      "venue": "Annals of Physics",
+      "year": 2024,
+      "doi": "10.1016/j.aop.2024.169819",
+      "url": "https://doi.org/10.1016/j.aop.2024.169819",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "RegFSL - A registration based framework for few-shot segmentation of brain tumor",
+      "authors": "Aiman Farooq, Deepak Mishra, Santanu Chaudhury",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "doi": "10.36227/techrxiv.172296556.61494868/v1",
+      "url": "https://doi.org/10.36227/techrxiv.172296556.61494868/v1",
+      "type": "Conference",
+      "area": "Medical Imaging"
+    },
+    {
+      "title": "RegFSL-A registration based framework for Few shot segmentation of Brain Tumor",
+      "authors": "Aiman Farooq, Deepak Mishra, Santanu Chaudhury",
+      "venue": "Unknown Venue",
+      "year": 2024,
+      "doi": "10.36227/techrxiv.171709831.10024495/v1",
+      "url": "https://doi.org/10.36227/techrxiv.171709831.10024495/v1",
+      "type": "Conference",
+      "area": "Medical Imaging"
+    },
+    {
+      "title": "Survival Prediction in Lung Cancer through Multi-Modal Representation Learning",
+      "authors": "Aiman Farooq, Deepak Mishra, Santanu Chaudhury",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024,
+      "doi": "10.48550/arxiv.2409.20179",
+      "url": "https://doi.org/10.48550/arxiv.2409.20179",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Towards Adversarial Robustness and Reducing Uncertainty Bias through Expert Regularized Pseudo-Bidirectional Alignment in Transductive Zero Shot Learning",
+      "authors": "A. K. Sinha, Deepak Mishra, S. Manthira Moorthi",
+      "venue": "Lecture notes in computer science",
+      "year": 2024,
+      "doi": "10.1007/978-3-031-78183-4_21",
+      "url": "https://doi.org/10.1007/978-3-031-78183-4_21",
+      "type": "Book Chapter",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Translating Imaging to Genomics: Leveraging Transformers for Predictive Modeling",
+      "authors": "Aiman Farooq, Deepak Mishra, Santanu Chaudhury",
+      "venue": "arXiv (Cornell University)",
+      "year": 2024,
+      "doi": "10.48550/arxiv.2408.00311",
+      "url": "https://doi.org/10.48550/arxiv.2408.00311",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Utilising energy function and variational inference training for learning a graph neural network architecture",
+      "authors": "Gayathri Girish, Deepak Mishra, Subrahamanian K. S. Moosath",
+      "venue": "Machine Learning",
+      "year": 2024,
+      "doi": "10.1007/s10994-024-06513-2",
+      "url": "https://doi.org/10.1007/s10994-024-06513-2",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "A Contrastive Learning Approach for\u00a0Infrared-Visible Image Fusion",
+      "authors": "Ashish Kumar Gupta, Mitali Barnwal, Deepak Mishra",
+      "venue": "Lecture notes in computer science",
+      "year": 2023,
+      "doi": "10.1007/978-3-031-45170-6_21",
+      "url": "https://doi.org/10.1007/978-3-031-45170-6_21",
+      "type": "Book Chapter",
+      "area": "Image Processing"
+    },
+    {
+      "title": "A Deep-Learning Approach for Turbulence Correction in Free Space Optical Communication with Laguerre-Gaussian Modes",
+      "authors": "Harsh Agarwal, Deepak Mishra, Ashok Kumar",
+      "venue": "SSRN Electronic Journal",
+      "year": 2023,
+      "doi": "10.2139/ssrn.4566188",
+      "url": "https://doi.org/10.2139/ssrn.4566188",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Automated classification of <i>Chandra</i> X-ray point sources using machine learning methods",
+      "authors": "Shivam Kumaran, Samir Mandal, Sudip Bhattacharyya, Deepak Mishra",
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "year": 2023,
+      "doi": "10.1093/mnras/stad414",
+      "url": "https://doi.org/10.1093/mnras/stad414",
+      "type": "Conference",
+      "area": "Biometrics"
+    },
+    {
+      "title": "CDQN: Context infused Sequential Object Detection with Deep Reinforcement Learning in Aerial Images",
+      "authors": "Rohit Gandikota, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2023,
+      "doi": "10.1109/ingarss59135.2023.10490391",
+      "url": "https://doi.org/10.1109/ingarss59135.2023.10490391",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Concept-based Hybrid Control Algorithm for Explainable Deep Learning System",
+      "authors": "Kothe Viswanath, Uma Sankari Ss, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2023,
+      "doi": "10.1109/icccnt56998.2023.10306989",
+      "url": "https://doi.org/10.1109/icccnt56998.2023.10306989",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Deep Learning based Absorption Tomography for Combustion Diagnostics",
+      "authors": "Arnab Mahanti, K. Satheesh, Deepak Mishra, Rajesh Sadanandan",
+      "venue": "Unknown Venue",
+      "year": 2023,
+      "doi": "10.2514/6.2023-3044",
+      "url": "https://doi.org/10.2514/6.2023-3044",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Expeditious Object Pose Estimation for\u00a0Autonomous Robotic Grasping",
+      "authors": "Sri Aditya Deevi, Deepak Mishra",
+      "venue": "Communications in computer and information science",
+      "year": 2023,
+      "doi": "10.1007/978-3-031-31417-9_2",
+      "url": "https://doi.org/10.1007/978-3-031-31417-9_2",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Framework for Segmented threshold <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" id=\"d1e4307\" altimg=\"si389.svg\"><mml:msub><mml:mrow><mml:mi>\u2113</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math> gradient approximation based network for sparse signal recovery",
+      "authors": "V. Vivekanand, Deepak Mishra",
+      "venue": "Neural Networks",
+      "year": 2023,
+      "doi": "10.1016/j.neunet.2023.03.005",
+      "url": "https://doi.org/10.1016/j.neunet.2023.03.005",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "HD-VAE-GAN: Hiding Data with Variational Autoencoder Generative Adversarial Networks",
+      "authors": "Rohit Gandikota, Deepak Mishra",
+      "venue": "Communications in computer and information science",
+      "year": 2023,
+      "doi": "10.1007/978-3-031-31407-0_3",
+      "url": "https://doi.org/10.1007/978-3-031-31407-0_3",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Hiding Video in\u00a0Images: Harnessing Adversarial Learning on\u00a0Deep 3D-Spatio-Temporal Convolutional Neural Networks",
+      "authors": "Rohit Gandikota, Deepak Mishra, Nik Bear Brown",
+      "venue": "Communications in computer and information science",
+      "year": 2023,
+      "doi": "10.1007/978-3-031-31407-0_5",
+      "url": "https://doi.org/10.1007/978-3-031-31407-0_5",
+      "type": "Book Chapter",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Influence of Sorting Measures on Similar Segment Grouping based Denoising Algorithms",
+      "authors": "G. Preethisree, V. Vivekanand, Deepak Mishra, R. Sethunadh",
+      "venue": "Research Square",
+      "year": 2023,
+      "doi": "10.21203/rs.3.rs-2406262/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-2406262/v1",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Influence of sorting measures on similar segment grouping based denoising algorithms",
+      "authors": "G. Preethisree, V. Vivekanand, Deepak Mishra, R. Sethunadh",
+      "venue": "Signal Image and Video Processing",
+      "year": 2023,
+      "doi": "10.1007/s11760-023-02870-y",
+      "url": "https://doi.org/10.1007/s11760-023-02870-y",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Keystroke Recognition using WiFi Sensing: An Empirical Study on Robustness",
+      "authors": "Haoming Wang, Aryan Sharma, Deepak Mishra, Aruna Seneviratne, Eliathamby Ambikairajah",
+      "venue": "Unknown Venue",
+      "year": 2023,
+      "doi": "10.1109/gcwkshps58843.2023.10464769",
+      "url": "https://doi.org/10.1109/gcwkshps58843.2023.10464769",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Multi-modality Fusion for\u00a0Siamese Network Based RGB-T Tracking (mfSiamTrack)",
+      "authors": "A. Chithra, Deepak Mishra",
+      "venue": "Communications in computer and information science",
+      "year": 2023,
+      "doi": "10.1007/978-3-031-31407-0_31",
+      "url": "https://doi.org/10.1007/978-3-031-31407-0_31",
+      "type": "Book Chapter",
+      "area": "Image Processing"
+    },
+    {
+      "title": "Multi-mode dictionaries for fast CS-based dynamic MRI reconstruction",
+      "authors": "Minha Mubarak, Thomas James Thomas, J. Sheeba Rani, Deepak Mishra",
+      "venue": "The Imaging Science Journal",
+      "year": 2023,
+      "doi": "10.1080/13682199.2023.2198347",
+      "url": "https://doi.org/10.1080/13682199.2023.2198347",
+      "type": "Conference",
+      "area": "Medical Imaging"
+    },
+    {
+      "title": "Nested DWT\u2013Based CNN Architecture for Monocular Depth Estimation",
+      "authors": "Sandip Paul, Deepak Mishra, Senthil Kumar Marimuthu",
+      "venue": "Sensors",
+      "year": 2023,
+      "doi": "10.3390/s23063066",
+      "url": "https://doi.org/10.3390/s23063066",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Share-GAN: A Novel Shared Task Training in\u00a0Generative Adversarial Networks for\u00a0Data Hiding",
+      "authors": "Rohit Gandikota, Deepak Mishra",
+      "venue": "Communications in computer and information science",
+      "year": 2023,
+      "doi": "10.1007/978-3-031-31407-0_4",
+      "url": "https://doi.org/10.1007/978-3-031-31407-0_4",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Utilizing Super-Resolution for Enhanced Automotive Radar Object Detection",
+      "authors": "Asish Kumar Mishra, Kanishka Tyagi, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2023,
+      "doi": "10.1109/icip49359.2023.10222681",
+      "url": "https://doi.org/10.1109/icip49359.2023.10222681",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "A Mathematical Modeling Approach to Characterize the Growth of the Electrical Tree in XLPE Insulation Under Lightning Impulse Overvoltage",
+      "authors": "M. S. Vidya, K. Sunitha, S. Ashok, Deepak Mishra",
+      "venue": "Arabian Journal for Science and Engineering",
+      "year": 2022,
+      "doi": "10.1007/s13369-022-06739-z",
+      "url": "https://doi.org/10.1007/s13369-022-06739-z",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Breakdown Voltage Prediction for Sphere and Semispheroid Geometries With Gaussian Process Regression-Based Model Under the Application of Lightning Impulses of Both Polarities",
+      "authors": "M. S. Vidya, K. Sunitha, Deepa S. Kumar, Deepak Mishra, S. Ashok",
+      "venue": "Canadian Journal of Electrical and Computer Engineering",
+      "year": 2022,
+      "doi": "10.1109/icjece.2022.3142891",
+      "url": "https://doi.org/10.1109/icjece.2022.3142891",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Dismon-Gan: 24\u00d77 All-Weather Optical Domain Surveillance Using Progressively Growing Adversarial Networks with Patch Discriminator",
+      "authors": "Rohit Gandikota, Deepak Mishra",
+      "venue": "IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium",
+      "year": 2022,
+      "doi": "10.1109/igarss46834.2022.9884051",
+      "url": "https://doi.org/10.1109/igarss46834.2022.9884051",
+      "type": "Conference",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Expendable and Distributed Measurement Scheme for Acquisition of Naturally Sparse Events",
+      "authors": "V. Vivekanand, Deepak Mishra",
+      "venue": "Wireless Personal Communications",
+      "year": 2022,
+      "doi": "10.1007/s11277-022-10151-z",
+      "url": "https://doi.org/10.1007/s11277-022-10151-z",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Expendable and Distributed Measurement Scheme for Acquisition of Naturally Sparse Events",
+      "authors": "V. Vivekanand, Deepak Mishra",
+      "venue": "Research Square",
+      "year": 2022,
+      "doi": "10.21203/rs.3.rs-909220/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-909220/v1",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Hiding images within audio using deep generative model",
+      "authors": "Subhajit Paul, Deepak Mishra",
+      "venue": "Multimedia Tools and Applications",
+      "year": 2022,
+      "doi": "10.1007/s11042-022-13034-4",
+      "url": "https://doi.org/10.1007/s11042-022-13034-4",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Large Scale Time-Series Representation Learning via Simultaneous Low and High Frequency Feature Bootstrapping",
+      "authors": "Vandan Gorade, Azad Singh, Deepak Mishra",
+      "venue": "arXiv (Cornell University)",
+      "year": 2022,
+      "doi": "10.48550/arxiv.2204.11291",
+      "url": "https://doi.org/10.48550/arxiv.2204.11291",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Performance measure for sparse recovery algorithms in compressed sensing perspective",
+      "authors": "V. Vivekanand, Deepak Mishra",
+      "venue": "International Journal of Data Science and Analytics",
+      "year": 2022,
+      "doi": "10.1007/s41060-022-00357-6",
+      "url": "https://doi.org/10.1007/s41060-022-00357-6",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Wasserstein Distance for Attention based cross modality Person Re-Identification",
+      "authors": "Nirmala Murali, Deepak Mishra",
+      "venue": "2022 IEEE 19th India Council International Conference (INDICON)",
+      "year": 2022,
+      "doi": "10.1109/indicon56171.2022.10039915",
+      "url": "https://doi.org/10.1109/indicon56171.2022.10039915",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "A model based on bag of visual words to predict the category of damage in XLPE insulation under the application of combined AC and repeated lightning impulses of both polarities",
+      "authors": "M. S. Vidya, K. Sunitha, S. Ashok, Deepak Mishra, S. S. Vinod Chandra",
+      "venue": "Electrical Engineering",
+      "year": 2021,
+      "doi": "10.1007/s00202-021-01269-7",
+      "url": "https://doi.org/10.1007/s00202-021-01269-7",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "An eigenvector approach for obtaining scale and orientation invariant classification in convolutional neural networks",
+      "authors": "Swetha Velluva Chathoth, Asish Kumar Mishra, Deepak Mishra, Subrahmanyam Gorthi R. K. Sai",
+      "venue": "Advances in Computational Intelligence",
+      "year": 2021,
+      "doi": "10.1007/s43674-021-00023-7",
+      "url": "https://doi.org/10.1007/s43674-021-00023-7",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Analyzing the growth of XLPE insulation damage under the application of repeated lightning impulses using nonlinear models",
+      "authors": "M. S. Vidya, K. Sunitha, Deepak Mishra, S. Ashok",
+      "venue": "Unknown Venue",
+      "year": 2021,
+      "doi": "10.1109/catcon52335.2021.9670530",
+      "url": "https://doi.org/10.1109/catcon52335.2021.9670530",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "DA-SACOT: Domain adaptive-segmentation guided attention for correlation based object tracking",
+      "authors": "Priya Mariam Raju, Deepak Mishra, Prerana Mukherjee",
+      "venue": "Image and Vision Computing",
+      "year": 2021,
+      "doi": "10.1016/j.imavis.2021.104215",
+      "url": "https://doi.org/10.1016/j.imavis.2021.104215",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Deep Video Compression using Compressed P-Frame Resampling",
+      "authors": "Abhishek Sinha, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2021,
+      "doi": "10.1109/ncc52529.2021.9530011",
+      "url": "https://doi.org/10.1109/ncc52529.2021.9530011",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Design and Analysis of a Secure Coded Communication System Using Chaotic Encryption and Turbo Product Code Decoder",
+      "authors": "S. Khavya, Karthi Balasubramanian, B. Yamuna, Deepak Mishra",
+      "venue": "Lecture notes in electrical engineering",
+      "year": 2021,
+      "doi": "10.1007/978-981-33-6977-1_48",
+      "url": "https://doi.org/10.1007/978-981-33-6977-1_48",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Design of High-Speed Turbo Product Code Decoder",
+      "authors": "Gautham Shivanna, B. Yamuna, Karthi Balasubramanian, Deepak Mishra",
+      "venue": "Lecture notes in electrical engineering",
+      "year": 2021,
+      "doi": "10.1007/978-981-33-6977-1_15",
+      "url": "https://doi.org/10.1007/978-981-33-6977-1_15",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Edge loss functions for deep-learning depth-map",
+      "authors": "Sandip Paul, Bhuvan Jhamb, Deepak Mishra, M. Senthil Kumar",
+      "venue": "Machine Learning with Applications",
+      "year": 2021,
+      "doi": "10.1016/j.mlwa.2021.100218",
+      "url": "https://doi.org/10.1016/j.mlwa.2021.100218",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Faster Training of Edge-attention Aided 6D Pose Estimation Model using Transfer Learning and Small Customized Dataset",
+      "authors": "S. Anju, Deepak Mishra, J. Sheeba Rani",
+      "venue": "Unknown Venue",
+      "year": 2021,
+      "doi": "10.1109/wispnet51692.2021.9419438",
+      "url": "https://doi.org/10.1109/wispnet51692.2021.9419438",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Finger Vein Pulsation-Based Biometric Recognition",
+      "authors": "Arya Krishnan, Tony Thomas, Deepak Mishra",
+      "venue": "IEEE Transactions on Information Forensics and Security",
+      "year": 2021,
+      "doi": "10.1109/tifs.2021.3122073",
+      "url": "https://doi.org/10.1109/tifs.2021.3122073",
+      "type": "Conference",
+      "area": "Biometrics"
+    },
+    {
+      "title": "Guided MDNet tracker with guided samples",
+      "authors": "Pallavi Venugopal Minimol, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "The Visual Computer",
+      "year": 2021,
+      "doi": "10.1007/s00371-021-02072-y",
+      "url": "https://doi.org/10.1007/s00371-021-02072-y",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Hardware Design of a Turbo Product Code Decoder",
+      "authors": "Gana C. Nair, B. Yamuna, Karthi Balasubramanian, Deepak Mishra",
+      "venue": "Lecture notes in electrical engineering",
+      "year": 2021,
+      "doi": "10.1007/978-981-33-4866-0_31",
+      "url": "https://doi.org/10.1007/978-981-33-4866-0_31",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "HeartNetEC: a deep representation learning approach for ECG beat classification",
+      "authors": "Sri Aditya Deevi, Christina Perinbam Kaniraja, Vani Devi Mani, Deepak Mishra, Shaik Ummar, Cejoy Satheesh",
+      "venue": "Biomedical Engineering Letters",
+      "year": 2021,
+      "doi": "10.1007/s13534-021-00184-x",
+      "url": "https://doi.org/10.1007/s13534-021-00184-x",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Novel Levilactobacillus brevis-based formulation for controlling cell proliferation, cell migration and gut dysbiosis",
+      "authors": "Sachin Mahanta, Monica Prusty, P. Sivakumar, Deepak Mishra, Ram Prasad Sahu, Chandan Goswami, Saurabh Chawla, Luna Goswami, Selvakumar Elangovan, Sandeep Kumar Panda",
+      "venue": "LWT",
+      "year": 2021,
+      "doi": "10.1016/j.lwt.2021.112818",
+      "url": "https://doi.org/10.1016/j.lwt.2021.112818",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Sparse Autoencoder for Sparse Code Multiple Access",
+      "authors": "Medini Singh, Deepak Mishra, M. Vanidevi",
+      "venue": "Unknown Venue",
+      "year": 2021,
+      "doi": "10.1109/icaiic51459.2021.9415203",
+      "url": "https://doi.org/10.1109/icaiic51459.2021.9415203",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "A Robust Pose Transformational GAN for Pose Guided Person Image Synthesis",
+      "authors": "Arnab Karmakar, Deepak Mishra",
+      "venue": "Communications in computer and information science",
+      "year": 2020,
+      "doi": "10.1007/978-981-15-8697-2_8",
+      "url": "https://doi.org/10.1007/978-981-15-8697-2_8",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Calibration of Depth Map Using a Novel Target",
+      "authors": "Sandip Paul, Deepak Mishra, M. Senthil",
+      "venue": "Communications in computer and information science",
+      "year": 2020,
+      "doi": "10.1007/978-981-15-4015-8_22",
+      "url": "https://doi.org/10.1007/978-981-15-4015-8_22",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Dictionary learning technique and penalized maximum likelihood for extending measurement range of a Rayleigh lidar",
+      "authors": "Varanasi Satya Sreekanth, K. Raghunath, Deepak Mishra",
+      "venue": "Journal of Applied Remote Sensing",
+      "year": 2020,
+      "doi": "10.1117/1.jrs.14.034529",
+      "url": "https://doi.org/10.1117/1.jrs.14.034529",
+      "type": "Conference",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Feasibility of using AM3358 beagle board for networked realtime signal acquisition",
+      "authors": "V. Vivekanand, Deepak Mishra",
+      "venue": "Internet of Things",
+      "year": 2020,
+      "doi": "10.1016/j.iot.2020.100199",
+      "url": "https://doi.org/10.1016/j.iot.2020.100199",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Gaussian Process Regression based Model for Prediction of Discharge Voltage of Air Gaps under Positive Polarity Lightning Impulse Voltages",
+      "authors": "M. S. Vidya, K. Sunitha, Deepa S. Kumar, Deepak Mishra, S. Ashok",
+      "venue": "Unknown Venue",
+      "year": 2020,
+      "doi": "10.1109/ccece47787.2020.9255791",
+      "url": "https://doi.org/10.1109/ccece47787.2020.9255791",
+      "type": "Conference",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Harnessing feedback region proposals for multi\u2010object tracking",
+      "authors": "Aswathy Prasanna Kumar, Deepak Mishra",
+      "venue": "IET Computer Vision",
+      "year": 2020,
+      "doi": "10.1049/iet-cvi.2019.0943",
+      "url": "https://doi.org/10.1049/iet-cvi.2019.0943",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Intelligent Systems, Technologies and Applications",
+      "authors": "Sabu M. Thampi, Ljiljana Trajkovi\u0107, Sushmita Mitra, P. Nagabhushan, El-Sayed M. El-Alfy, Zoran Bojkovi\u0107, Deepak Mishra",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2020,
+      "doi": "10.1007/978-981-15-3914-5",
+      "url": "https://doi.org/10.1007/978-981-15-3914-5",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Pose Estimation of UAVs Using Stereovision",
+      "authors": "Samvram Sahu, Harsha Simha, Deepak Mishra",
+      "venue": "Communications in computer and information science",
+      "year": 2020,
+      "doi": "10.1007/978-981-15-8697-2_17",
+      "url": "https://doi.org/10.1007/978-981-15-8697-2_17",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Retraining a Pruned Network: A Unified Theory of Time Complexity",
+      "authors": "Soumya Sara John, Deepak Mishra, Sheeba Rani Johnson",
+      "venue": "SN Computer Science",
+      "year": 2020,
+      "doi": "10.1007/s42979-020-00208-w",
+      "url": "https://doi.org/10.1007/s42979-020-00208-w",
+      "type": "Conference",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "T3D-Y Codec: A Video Compression Framework using Temporal 3-D CNN Encoder and Y-Style CNN Decoder",
+      "authors": "Abhishek Sinha, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2020,
+      "doi": "10.1109/icccnt49239.2020.9225580",
+      "url": "https://doi.org/10.1109/icccnt49239.2020.9225580",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Tensor Based Dictionary Learning for Compressive Sensing MRI Reconstruction",
+      "authors": "Minha Mubarak, Thomas James Thomas, J. Sheeba Rani, Deepak Mishra",
+      "venue": "Communications in computer and information science",
+      "year": 2020,
+      "doi": "10.1007/978-981-15-4015-8_12",
+      "url": "https://doi.org/10.1007/978-981-15-4015-8_12",
+      "type": "Book Chapter",
+      "area": "Medical Imaging"
+    },
+    {
+      "title": "Variable Search Space Converging Genetic Algorithm for Solving System of Non-linear Equations",
+      "authors": "Venkatesh SS, Deepak Mishra",
+      "venue": "Journal of Intelligent Systems",
+      "year": 2020,
+      "doi": "10.1515/jisys-2019-0233",
+      "url": "https://doi.org/10.1515/jisys-2019-0233",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "An Attention Ensemble Based Approach for Multilabel Profanity Detection",
+      "authors": "Pratik Ratadiya, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/icdmw.2019.00083",
+      "url": "https://doi.org/10.1109/icdmw.2019.00083",
+      "type": "Conference",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Application of Digital Image Processing Method for Spray Characterization",
+      "authors": "Mohammed M.N. Sahal, Deepak Mishra, Namya Gupta, Rajesh Sadanandan",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/spin.2019.8711785",
+      "url": "https://doi.org/10.1109/spin.2019.8711785",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Application of image enhancement and mixture of Gaussian approach in combustion research",
+      "authors": "Litu Rout, Rajesh Sadanandan, Deepak Mishra",
+      "venue": "Sadhana",
+      "year": 2019,
+      "doi": "10.1007/s12046-019-1100-6",
+      "url": "https://doi.org/10.1007/s12046-019-1100-6",
+      "type": "Conference",
+      "area": "Image Processing"
+    },
+    {
+      "title": "Detection based long term tracking in correlation filter trackers",
+      "authors": "Priya Mariam Raju, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Pattern Recognition Letters",
+      "year": 2019,
+      "doi": "10.1016/j.patrec.2019.02.028",
+      "url": "https://doi.org/10.1016/j.patrec.2019.02.028",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "ECNN: Activity Recognition Using Ensembled Convolutional Neural Networks",
+      "authors": "Aprameyo Roy, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/tencon.2019.8929519",
+      "url": "https://doi.org/10.1109/tencon.2019.8929519",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Eigenvector Orientation Corrected LeNet for Digit Recognition",
+      "authors": "V. C. Swetha, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2019,
+      "doi": "10.1007/978-981-32-9088-4_27",
+      "url": "https://doi.org/10.1007/978-981-32-9088-4_27",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "FPGA Based Advance Parking Lot System",
+      "authors": "Parul Vamney, Deepak Mishra, Rajesh Khatri",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/iementech48150.2019.8981086",
+      "url": "https://doi.org/10.1109/iementech48150.2019.8981086",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Fault Detection Techniques for Analog/Mixed Signal SoC design",
+      "authors": "Alpana Amit Deshmukh, R. S. Gamad, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/i2ct45611.2019.9033900",
+      "url": "https://doi.org/10.1109/i2ct45611.2019.9033900",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Hiding Audio in Images: A Deep Learning Approach",
+      "authors": "Rohit Gandikota, Deepak Mishra",
+      "venue": "Lecture notes in computer science",
+      "year": 2019,
+      "doi": "10.1007/978-3-030-34872-4_43",
+      "url": "https://doi.org/10.1007/978-3-030-34872-4_43",
+      "type": "Book Chapter",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Higher order Dictionary Learning for Compressed Sensing based Dynamic MRI reconstruction.",
+      "authors": "Minha Mubarak, Thomas James Thomas, J. Sheeba Rani, Deepak Mishra",
+      "venue": "British Machine Vision Conference",
+      "year": 2019,
+      "doi": "",
+      "url": "https://dblp.uni-trier.de/db/conf/bmvc/bmvc2019.html#MubarakTRM19",
+      "type": "Conference",
+      "area": "Medical Imaging"
+    },
+    {
+      "title": "How You See Me: Understanding Convolutional Neural Networks",
+      "authors": "Rohit Gandikota, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/tencon.2019.8929603",
+      "url": "https://doi.org/10.1109/tencon.2019.8929603",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Implementation of Phase Locked Loop for FM Demodulator Circuit",
+      "authors": "Alpana Amit Deshmukh, R. S. Gamad, Deepak Mishra",
+      "venue": "International Journal of Engineering & Technology",
+      "year": 2019,
+      "doi": "10.14419/ijet.v7i4.28025",
+      "url": "https://doi.org/10.14419/ijet.v7i4.28025",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Indian Rubidium Atomic Frequency Standard (iRAFS) Development for Satellite Navigation",
+      "authors": "Thejesh Bandi, Jaydeep Kaintura, Azhar R. Saiyed, Bikash Ghosal, Pratik Jain, Richa Sharma, Priyanka Priya, Keya Shukla, Sarathi Mandal, Niranjan Reddy, Ashish Soni, Sandip Somani, Arvind Patel, Deepak Attri, Deepak Mishra, Tulchhi Ram, K.S. Parikh",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.23919/ursiap-rasc.2019.8738208",
+      "url": "https://doi.org/10.23919/ursiap-rasc.2019.8738208",
+      "type": "Conference",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Intelligent Systems, Technologies and Applications",
+      "authors": "Sabu M. Thampi, Ljiljana Trajkovi\u0107, Sushmita Mitra, P. Nagabhushan, Jayanta Mukhopadhyay, Juan M. Corchado, Stefano Berretti, Deepak Mishra",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2019,
+      "doi": "10.1007/978-981-13-6095-4",
+      "url": "https://doi.org/10.1007/978-981-13-6095-4",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Multi-Scale Dilated Residual Convolutional Neural Network for Hyperspectral Image Classification",
+      "authors": "Kumari Pooja, \u202aRama Rao Nidamanuri, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/whispers.2019.8921284",
+      "url": "https://doi.org/10.1109/whispers.2019.8921284",
+      "type": "Conference",
+      "area": "Hyperspectral Imaging"
+    },
+    {
+      "title": "Multi-scale Attention Aided Multi-Resolution Network for Human Pose Estimation",
+      "authors": "Srinika Selvam, Deepak Mishra",
+      "venue": "Lecture notes in computer science",
+      "year": 2019,
+      "doi": "10.1007/978-3-030-34869-4_50",
+      "url": "https://doi.org/10.1007/978-3-030-34869-4_50",
+      "type": "Book Chapter",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Retraining Conditions: How Much to Retrain a Network After Pruning?",
+      "authors": "Soumya Sara John, Deepak Mishra, J. Sheeba Rani",
+      "venue": "Lecture notes in computer science",
+      "year": 2019,
+      "doi": "10.1007/978-3-030-34869-4_17",
+      "url": "https://doi.org/10.1007/978-3-030-34869-4_17",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Towards Automated Breast Mass Classification using Deep Learning Framework",
+      "authors": "Pinaki Ranjan Sarkar, Priya Prabhakar, Deepak Mishra, Gorthi Subrahmanyam",
+      "venue": "Unknown Venue",
+      "year": 2019,
+      "doi": "10.1109/dsaa.2019.00060",
+      "url": "https://doi.org/10.1109/dsaa.2019.00060",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "WAEF: Weighted Aggregation with Enhancement Filter for Visual Object Tracking",
+      "authors": "Litu Rout, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Lecture notes in computer science",
+      "year": 2019,
+      "doi": "10.1007/978-3-030-11009-3_4",
+      "url": "https://doi.org/10.1007/978-3-030-11009-3_4",
+      "type": "Book Chapter",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "6. Image fusion in remote sensing based on sparse sampling method and PCNN techniques",
+      "authors": "Satish Nirala, Deepak Mishra, K. Martin Sagayam, D. Narain Ponraj, X. Ajay Vasanth, Lawrence Henesey, Chiung Ching Ho",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "10.1515/9783110551433-006",
+      "url": "https://doi.org/10.1515/9783110551433-006",
+      "type": "Book Chapter",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Automatic Attendance System Using Deep Learning Framework",
+      "authors": "Pinaki Ranjan Sarkar, Deepak Mishra, Gorthi R. K. Sai Subhramanyam",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2018,
+      "doi": "10.1007/978-981-13-0923-6_29",
+      "url": "https://doi.org/10.1007/978-981-13-0923-6_29",
+      "type": "Book Chapter",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Bag of Visual Words based Correlation Filter Tracker (BoVW-CFT)",
+      "authors": "Priya Mariam Raju, Deepak Mishra, Gorthi Rama Krishna Sai Subrahmanyam",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "10.1145/3293353.3293428",
+      "url": "https://doi.org/10.1145/3293353.3293428",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Bayesian Approach for Landslide Identification from High-Resolution Satellite Images",
+      "authors": "Pilli Madalasa, Gorthi R K Sai Subrahmanyam, Tapas R. Martha, \u202aRama Rao Nidamanuri, Deepak Mishra",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2018,
+      "doi": "10.1007/978-981-10-7898-9_2",
+      "url": "https://doi.org/10.1007/978-981-10-7898-9_2",
+      "type": "Book Chapter",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Classification of Breast Masses Using Convolutional Neural Network as Feature Extractor and Classifier",
+      "authors": "Pinaki Ranjan Sarkar, Deepak Mishra, Gorthi R. K. Sai Subrahmanyam",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2018,
+      "doi": "10.1007/978-981-10-7898-9_3",
+      "url": "https://doi.org/10.1007/978-981-10-7898-9_3",
+      "type": "Book Chapter",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Declaring schools tobacco free: protecting young generation to save Nation (multipronged coordinated interventions to declare 3517 schools tobacco free in Jharkhand state in India)",
+      "authors": "Manish Ranjan, Ashish Kumar Pandey, Deepak Mishra",
+      "venue": "Tobacco Induced Diseases",
+      "year": 2018,
+      "doi": "10.18332/tid/84592",
+      "url": "https://doi.org/10.18332/tid/84592",
+      "type": "Conference",
+      "area": "Biometrics"
+    },
+    {
+      "title": "Deep GoogLeNet Features for Visual Object Tracking",
+      "authors": "P. Aswathy, Siddhartha Siddhartha, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "10.1109/iciinfs.2018.8721317",
+      "url": "https://doi.org/10.1109/iciinfs.2018.8721317",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Determining statistical parameters of ADC using probability-based histogram method with noise as stimuli",
+      "authors": "Deepak Mishra, Bhawana Garg",
+      "venue": "International Journal of Instrumentation Technology",
+      "year": 2018,
+      "doi": "10.1504/ijit.2018.10011925",
+      "url": "https://doi.org/10.1504/ijit.2018.10011925",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Effective Denoising with Non-local Means Filter for Reliable Unwrapping of Digital Holographic Interferometric Fringes",
+      "authors": "P. Aparna, Rahul G. Waghmare, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2018,
+      "doi": "10.1007/978-981-10-7895-8_2",
+      "url": "https://doi.org/10.1007/978-981-10-7895-8_2",
+      "type": "Book Chapter",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Incorporating rotational invariance in convolutional neural network architecture",
+      "authors": "Haribabu Kandi, Ayushi Jain, Swetha Velluva Chathoth, Deepak Mishra, Gorthi R. K. Sai Subrahmanyam",
+      "venue": "Pattern Analysis and Applications",
+      "year": 2018,
+      "doi": "10.1007/s10044-018-0689-0",
+      "url": "https://doi.org/10.1007/s10044-018-0689-0",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Institutionalization of Indian Tobacco Control Programme at Grassroot level - experiences from state of Jharkhand in India. (Enabling institutional structure is key to sustained results)",
+      "authors": "Manish Ranjan, Deepak Mishra, Ashish Kumar Pandey",
+      "venue": "Tobacco Induced Diseases",
+      "year": 2018,
+      "doi": "10.18332/tid/84584",
+      "url": "https://doi.org/10.18332/tid/84584",
+      "type": "Conference",
+      "area": "Biometrics"
+    },
+    {
+      "title": "Localization: A Missing Link in the Pipeline of Object Matching and Registration",
+      "authors": "Deepak Mishra, Rajeev Ranjan, Santanu Chaudhury, Mukul Sarkar, Arvinder S. Soin",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018,
+      "doi": "10.48550/arxiv.1805.00223",
+      "url": "https://doi.org/10.48550/arxiv.1805.00223",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Locate, Segment and Match: A Pipeline for Object Matching and Registration.",
+      "authors": "Deepak Mishra, Rajeev Ranjan, Santanu Chaudhury, Mukul Sarkar, Arvinder S. Soin",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "",
+      "url": "http://export.arxiv.org/pdf/1805.00223",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "NEMGAN: Noise Engineered Mode-matching GAN",
+      "authors": "Deepak Mishra, Prathosh AP, Aravind Jayendran, Prashant Pandey, Santanu Chaudhury",
+      "venue": "arXiv (Cornell University)",
+      "year": 2018,
+      "doi": "",
+      "url": "https://arxiv.org/abs/1811.03692v1",
+      "type": "Conference",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Reconstruction of apertured Fourier Transform Hologram using compressed sensing",
+      "authors": "Akshay Pandit Vetal, Darshika Singh, Rakesh Kumar Singh, Deepak Mishra",
+      "venue": "Optics and Lasers in Engineering",
+      "year": 2018,
+      "doi": "10.1016/j.optlaseng.2018.08.008",
+      "url": "https://doi.org/10.1016/j.optlaseng.2018.08.008",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Rotation Adaptive Visual Object Tracking with Motion Consistency",
+      "authors": "Litu Rout, Sidhartha, Deepak Mishra, Rama Krishna Sai Subrahmanyam Gorthi",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "10.1109/wacv.2018.00120",
+      "url": "https://doi.org/10.1109/wacv.2018.00120",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Rotation Invariant Digit Recognition Using Convolutional Neural Network",
+      "authors": "Ayushi Jain, Gorthi R. K. Sai Subrahmanyam, Deepak Mishra",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2018,
+      "doi": "10.1007/978-981-10-7895-8_8",
+      "url": "https://doi.org/10.1007/978-981-10-7895-8_8",
+      "type": "Book Chapter",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Scale and Rotation Corrected CNNs (SRC-CNNs) for Scale and Rotation Invariant Character Recognition",
+      "authors": "V. C. Swetha, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "10.1145/3293353.3293373",
+      "url": "https://doi.org/10.1145/3293353.3293373",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Stellar Cluster Detection Using GMM with Deep Variational Autoencoder",
+      "authors": "Arnab Karmakar, Deepak Mishra, Anandmayee Tej",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "10.1109/raics.2018.8634903",
+      "url": "https://doi.org/10.1109/raics.2018.8634903",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Unsupervised Anomalous Trajectory Detection for Crowded Scenes",
+      "authors": "Deepan Das, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2018,
+      "doi": "10.1109/iciinfs.2018.8721320",
+      "url": "https://doi.org/10.1109/iciinfs.2018.8721320",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Compressive correlation holography",
+      "authors": "Rachit Saluja, G. R. K. S. Subrahmanyam, Deepak Mishra, R. V. Vinu, Rakesh Kumar Singh",
+      "venue": "Applied Optics",
+      "year": 2017,
+      "doi": "10.1364/ao.56.006949",
+      "url": "https://doi.org/10.1364/ao.56.006949",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Computationally efficient deep tracker: Guided MDNet",
+      "authors": "Manu Venugopal, Deepak Mishra, Gorthi R. K. Sai Subrahmanyam",
+      "venue": "Unknown Venue",
+      "year": 2017,
+      "doi": "10.1109/ncc.2017.8077044",
+      "url": "https://doi.org/10.1109/ncc.2017.8077044",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Correlation-Based Tracker-Level Fusion for Robust Visual Tracking",
+      "authors": "Madan Kumar Rapuru, Sumithra Kakanuru, Pallavi M. Venugopal, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "IEEE Transactions on Image Processing",
+      "year": 2017,
+      "doi": "10.1109/tip.2017.2699791",
+      "url": "https://doi.org/10.1109/tip.2017.2699791",
+      "type": "Conference",
+      "area": "Image Processing"
+    },
+    {
+      "title": "Hyper spectral image classification using multilayer perceptron neural network &amp; functional link ANN",
+      "authors": "Anita Thakur, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2017,
+      "doi": "10.1109/confluence.2017.7943230",
+      "url": "https://doi.org/10.1109/confluence.2017.7943230",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Improving Isolated Bangla Compound Character Recognition Through Feature-map Alignment",
+      "authors": "Pinaki Ranjan Sarkar, Deepak Mishra, Gorthi R. K. S. S. Manyam",
+      "venue": "Unknown Venue",
+      "year": 2017,
+      "doi": "10.1109/icapr.2017.8593008",
+      "url": "https://doi.org/10.1109/icapr.2017.8593008",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Result Analysis of Reversible Data Hiding in Encrypted JPEG Bitstream",
+      "authors": "Pooja Dwivedi, S. Sonulal, Deepak Mishra",
+      "venue": "International Journal of Computer Applications",
+      "year": 2017,
+      "doi": "10.5120/ijca2017912858",
+      "url": "https://doi.org/10.5120/ijca2017912858",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Result Analysis-Edge-Preserving Decomposition-based Single Image Haze Removal",
+      "authors": "Puja Rani, S. Sonulal, Deepak Mishra",
+      "venue": "International Journal of Computer Applications",
+      "year": 2017,
+      "doi": "10.5120/ijca2017912860",
+      "url": "https://doi.org/10.5120/ijca2017912860",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Stacked Features Based CNN for Rotation Invariant Digit Classification",
+      "authors": "Ayushi Jain, Rama Krishna Gorthi, Deepak Mishra",
+      "venue": "Lecture notes in computer science",
+      "year": 2017,
+      "doi": "10.1007/978-3-319-69900-4_67",
+      "url": "https://doi.org/10.1007/978-3-319-69900-4_67",
+      "type": "Book Chapter",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "A differential excitation based rotational invariance for convolutional neural networks",
+      "authors": "Haribabu Kandi, Deepak Mishra, GRK S Subrahmanyam",
+      "venue": "Unknown Venue",
+      "year": 2016,
+      "doi": "10.1145/3009977.3009978",
+      "url": "https://doi.org/10.1145/3009977.3009978",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Adaptive multifocus image fusion using block compressed sensing with smoothed projected Landweber integration in the wavelet domain",
+      "authors": "V. S. Unni, Deepak Mishra, G. R. K. S. Subrahmanyam",
+      "venue": "Journal of the Optical Society of America A",
+      "year": 2016,
+      "doi": "10.1364/josaa.33.002516",
+      "url": "https://doi.org/10.1364/josaa.33.002516",
+      "type": "Conference",
+      "area": "Image Processing"
+    },
+    {
+      "title": "Applicability of Self-Organizing Maps in Content-Based Image Classification",
+      "authors": "Kumar Rohit, Rama Krishna Gorthi, Deepak Mishra",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2016,
+      "doi": "10.1007/978-981-10-2104-6_28",
+      "url": "https://doi.org/10.1007/978-981-10-2104-6_28",
+      "type": "Book Chapter",
+      "area": "Image Processing"
+    },
+    {
+      "title": "Application of transfer learning in RGB-D object recognition",
+      "authors": "Abhishek Kumar, S. Nithin Shrivatsav, G. R. K. S. Subrahmanyam, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2016,
+      "doi": "10.1109/icacci.2016.7732108",
+      "url": "https://doi.org/10.1109/icacci.2016.7732108",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Automated detection of landslides in object-based environment using open source tools",
+      "authors": "V. S. Veena, Sai Subrahanyam Gorthi, Tapas R. Martha, Deepak Mishra, \u202aRama Rao Nidamanuri",
+      "venue": "Unknown Venue",
+      "year": 2016,
+      "doi": "10.3990/2.366",
+      "url": "https://doi.org/10.3990/2.366",
+      "type": "Conference",
+      "area": "Remote Sensing"
+    },
+    {
+      "title": "Complementary tracker's fusion for robust visual tracking",
+      "authors": "Sumithra Kakanuru, Madan Kumar Rapuru, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Unknown Venue",
+      "year": 2016,
+      "doi": "10.1145/3009977.3010006",
+      "url": "https://doi.org/10.1145/3009977.3010006",
+      "type": "Conference",
+      "area": "Image Processing"
+    },
+    {
+      "title": "Cytopathological image analysis using deep-learning networks in microfluidic microscopy",
+      "authors": "G. Gopakumar, K. Hari Babu, Deepak Mishra, Sai Siva Gorthi, Gorthi. R. K. Sai Subrahmanyam",
+      "venue": "Journal of the Optical Society of America A",
+      "year": 2016,
+      "doi": "10.1364/josaa.34.000111",
+      "url": "https://doi.org/10.1364/josaa.34.000111",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Exploring the learning capabilities of convolutional neural networks for robust image watermarking",
+      "authors": "Haribabu Kandi, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Computers & Security",
+      "year": 2016,
+      "doi": "10.1016/j.cose.2016.11.016",
+      "url": "https://doi.org/10.1016/j.cose.2016.11.016",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Parameter Free Clustering Approach for Event Summarization in Videos",
+      "authors": "Deepak Mishra, Navjot Singh",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2016,
+      "doi": "10.1007/978-981-10-2104-6_35",
+      "url": "https://doi.org/10.1007/978-981-10-2104-6_35",
+      "type": "Book Chapter",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Particle-filter-based phase estimation in digital holographic interferometry",
+      "authors": "Rahul G. Waghmare, P. Ram Sukumar, G. R. K. S. Subrahmanyam, Rakesh Kumar Singh, Deepak Mishra",
+      "venue": "Journal of the Optical Society of America A",
+      "year": 2016,
+      "doi": "10.1364/josaa.33.000326",
+      "url": "https://doi.org/10.1364/josaa.33.000326",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Signal Tracking Approach based Phase Estimation for Analysis of Thermal Expansion by Digital Holographic Interferometry",
+      "authors": "Rahul G. Waghmare, Deepak Mishra, G. R. K. Sai Subrahmanyam",
+      "venue": "Unknown Venue",
+      "year": 2016,
+      "doi": "10.1364/3d.2016.jw4a.15",
+      "url": "https://doi.org/10.1364/3d.2016.jw4a.15",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Simultaneous speech coding and de-noising in a dictionary based quantized CS framework",
+      "authors": "Vinitha Ramdas, Rama Krishna Gorthi, Deepak Mishra",
+      "venue": "International Journal of Speech Technology",
+      "year": 2016,
+      "doi": "10.1007/s10772-016-9345-5",
+      "url": "https://doi.org/10.1007/s10772-016-9345-5",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "The Visual Object Tracking VOT2016 Challenge Results",
+      "authors": "Matej Kristan, Ale\u0161 Leonardis, Ji\u0159\u0131\u0301 Matas, Michael Felsberg, Roman Pflugfelder, Luka \u010cehovin, Tom\u00e1\u0161 Voj\u00ed\u0159, G Hager, Alan Luke\u017ei\u010d, Gustavo J. Fern\u00e1ndez, Abhinav Gupta, Alfredo Petrosino, Alireza Memarmoghadam, \u00c1lvaro Garc\u00eda\u2010Mart\u00edn, Andr\u00e9s Sol\u00eds Montero, Andrea Vedaldi, Andreas Robinson, J. Andy, Anton Varfolomieiev, Aydin Alatan, Aykut Erdem, Bernard Ghanem, Bin Liu, Bohyung Han, Brais Mart\u00ednez, Chang-Ming Chang, Changsheng Xu, Chong Sun, Daijin Kim, Dapeng Chen, Dawei Du, Deepak Mishra, Dit\u2010Yan Yeung, Erhan G\u00fcndo\u011fdu, Erkut Erdem, Fahad Shahbaz Khan, Fatih Porikli, Fei Zhao, Filiz Bunyak, Francesco Battistone, Gao Zhu, Giorgio Roffo, Gorthi R. K. Sai Subrahmanyam, Guilherme Sousa Bastos, Guna Seetharaman, Henry Medeiros, Hongdong Li, Honggang Qi, Horst Bischof, Horst Possegger, Huchuan Lu, Hyemin Lee, Hyeonseob Nam, Hyung Jin Chang, Isabela Drummond, Jack Valmadre, Jae\u2010chan Jeong, Jae-il Cho, Jae-Yeong Lee, Jianke Zhu, Jiayi Feng, Jin Gao, Jin Young Choi, Jingjing Xiao, Ji-Wan Kim, Jiyeoup Jeong, Jo\u00e3o F. Henriques, Jochen Lang, Jongwon Choi, Jos\u00e9 M. Mart\u00ednez, Junliang Xing, Junyu Gao, Kannappan Palaniappan, Karel Lebeda, Ke Gao, Krystian Mikolajczyk, Lei Qin, Lijun Wang, Longyin Wen, Luca Bertinetto, Madan Kumar Rapuru, Mahdieh Poostchi, Mario Edoardo Maresca, Martin Danelljan, Matthias Mueller, Mengdan Zhang, Michael Arens, Michel Valstar, Ming Tang, Mooyeol Baek, Muhammad Haris Khan, Naiyan Wang, Nana Fan, Noor Al-Shakarji, Ond\u0159ej Mik\u0161\u00edk, Osman Ak\u0131n, Payman Moallem, Pedro Senna, Philip H. S. Torr, Pong C. Yuen",
+      "venue": "Lecture notes in computer science",
+      "year": 2016,
+      "doi": "10.1007/978-3-319-48881-3_54",
+      "url": "https://doi.org/10.1007/978-3-319-48881-3_54",
+      "type": "Book Chapter",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Wrapped statistics-based phase retrieval from interference fringes",
+      "authors": "Rahul G. Waghmare, Rama Krishna Gorthi, Deepak Mishra",
+      "venue": "Journal of Modern Optics",
+      "year": 2016,
+      "doi": "10.1080/09500340.2016.1151085",
+      "url": "https://doi.org/10.1080/09500340.2016.1151085",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "A Novel Texture Based Automated Histogram Specification for Color Image Enhancement Using Image Fusion",
+      "authors": "R. Raji, Deepak Mishra, Madhu S. Nair",
+      "venue": "Procedia Computer Science",
+      "year": 2015,
+      "doi": "10.1016/j.procs.2015.02.070",
+      "url": "https://doi.org/10.1016/j.procs.2015.02.070",
+      "type": "Conference",
+      "area": "Image Processing"
+    },
+    {
+      "title": "A robust digital image watermarking technique using auto encoder based convolutional neural networks",
+      "authors": "K. Haribabu, G. R. K. S. Subrahmanyam, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/wci.2015.7495522",
+      "url": "https://doi.org/10.1109/wci.2015.7495522",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Compressive Sensing framework for simultaneous compression and despeckling of SAR images",
+      "authors": "Chandrakanth Jayachandran Preetha, Rama Krishna Gorthi, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/icapr.2015.7050700",
+      "url": "https://doi.org/10.1109/icapr.2015.7050700",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Development of a kinect-based physical rehabilitation system",
+      "authors": "Param Uttarwar, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/iciip.2015.7414802",
+      "url": "https://doi.org/10.1109/iciip.2015.7414802",
+      "type": "Conference",
+      "area": "Machine Learning"
+    },
+    {
+      "title": "Enhancing Face Recognition Under Unconstrained Background Clutter Using Color Based Segmentation",
+      "authors": "Ankush Chatterjee, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Advances in intelligent systems and computing",
+      "year": 2015,
+      "doi": "10.1007/978-3-319-28658-7_5",
+      "url": "https://doi.org/10.1007/978-3-319-28658-7_5",
+      "type": "Book Chapter",
+      "area": "Biometrics"
+    },
+    {
+      "title": "Fuzzy contrast mapping for image enhancement",
+      "authors": "Anita Thakur, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/spin.2015.7095415",
+      "url": "https://doi.org/10.1109/spin.2015.7095415",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Implementation of Optimized Floating Point Adder on FPGA",
+      "authors": "Iosr Journals, Deepak Mishra, Vipul Agrawal",
+      "venue": "Figshare",
+      "year": 2015,
+      "doi": "10.6084/m9.figshare.1480528",
+      "url": "https://doi.org/10.6084/m9.figshare.1480528",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Integrated algorithm for different tracking challenges",
+      "authors": "Jay Shah, Sai Subrahmanyam G. R. K, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/ncvpripg.2015.7490048",
+      "url": "https://doi.org/10.1109/ncvpripg.2015.7490048",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Phase unwrapping with Kalman filter based denoising in digital holographic interferometry",
+      "authors": "P. Ram Sukumar, Rahul G. Waghmare, Rakesh Kumar Singh, G. R. K. S. Subrahmanyam, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/icacci.2015.7275953",
+      "url": "https://doi.org/10.1109/icacci.2015.7275953",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Randomized Hough transform-based vision algorithm for small unmanned aerial vehicles using an airbag",
+      "authors": "Vidya Mohan, Deepak Mishra, Nithin Raj",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/cgvis.2015.7449919",
+      "url": "https://doi.org/10.1109/cgvis.2015.7449919",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Shift Window FPTree - An Efficient Stream Mining Algorithm",
+      "authors": "Deepak Mishra, Varsha Sharma",
+      "venue": "International Journal of Education and Management Engineering",
+      "year": 2015,
+      "doi": "10.5815/ijeme.2015.04.02",
+      "url": "https://doi.org/10.5815/ijeme.2015.04.02",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Signal tracking approach for simultaneous estimation of phase and instantaneous frequency",
+      "authors": "Rahul G. Waghmare, G R K Sai Subrahmanyam, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/spices.2015.7091451",
+      "url": "https://doi.org/10.1109/spices.2015.7091451",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Speech coding and enhancement using quantized compressive sensing measurements",
+      "authors": "Vinitha Ramdas, Deepak Mishra, Rama Krishna Gorthi",
+      "venue": "Unknown Venue",
+      "year": 2015,
+      "doi": "10.1109/spices.2015.7091436",
+      "url": "https://doi.org/10.1109/spices.2015.7091436",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Comparative Study of Geometric and Image Based Modelling and Rendering Techniques",
+      "authors": "Agrima Seth, Deepak Mishra",
+      "venue": "arXiv (Cornell University)",
+      "year": 2014,
+      "doi": "10.48550/arxiv.1409.5024",
+      "url": "https://doi.org/10.48550/arxiv.1409.5024",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Effect of thermal environment on quantum nonlocality of superposition of two coherent states (\u03c0/2 out of phase)",
+      "authors": "Deepak Mishra",
+      "venue": "Optics and Spectroscopy",
+      "year": 2014,
+      "doi": "10.1134/s0030400x14100178",
+      "url": "https://doi.org/10.1134/s0030400x14100178",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Noise immunity analysis of compressed sensing recovery algorithms",
+      "authors": "V. Vivekanand, L. Vidya, Uttam Kumar, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2014,
+      "doi": "10.1109/spin.2014.6776916",
+      "url": "https://doi.org/10.1109/spin.2014.6776916",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "RBF-network based sparse signal recovery algorithm for compressed sensing reconstruction",
+      "authors": "L. Vidya, V. Vivekanand, U. Shyamkumar, Deepak Mishra",
+      "venue": "Neural Networks",
+      "year": 2014,
+      "doi": "10.1016/j.neunet.2014.10.010",
+      "url": "https://doi.org/10.1016/j.neunet.2014.10.010",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Radial basis function cascade network for Sparse signal Recovery (RASR)",
+      "authors": "V. Vivekanand, L. Vidya, Uttam Kumar, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2014,
+      "doi": "10.1109/ncc.2014.6811251",
+      "url": "https://doi.org/10.1109/ncc.2014.6811251",
+      "type": "Conference",
+      "area": "Signal Processing"
+    },
+    {
+      "title": "Signal tracking approach for phase estimation in digital holographic interferometry",
+      "authors": "Rahul G. Waghmare, Deepak Mishra, G. R. K. Sai Subrahmanyam, Earu Banoth, Sai Siva Gorthi",
+      "venue": "Applied Optics",
+      "year": 2014,
+      "doi": "10.1364/ao.53.004150",
+      "url": "https://doi.org/10.1364/ao.53.004150",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "3D information retrieval for visual odometry system of planetary exploration rovers - A stereo vision approach",
+      "authors": "K. Chitra, Sudin Dinesh, Deepak Mishra, V. Brinda, V.R. Lalithambika, Bhagavath Kumar",
+      "venue": "Unknown Venue",
+      "year": 2013,
+      "doi": "10.1109/icacci.2013.6637197",
+      "url": "https://doi.org/10.1109/icacci.2013.6637197",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Feasibility study of applying compressed sensing recovery algorithms for launch vehicle telemetry",
+      "authors": "L. Vidya, V Vivekananad, U. Shyamkumar, Deepak Mishra, R. Lakshminarayanan",
+      "venue": "Unknown Venue",
+      "year": 2013,
+      "doi": "10.1109/aicera-icmicr.2013.6576044",
+      "url": "https://doi.org/10.1109/aicera-icmicr.2013.6576044",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Front &amp; Back Matter",
+      "authors": "Andrew M. Simons, L.G. Shaffer, Ros Hastings, Astrid Tuborgh, Claus Meyer, Rolf Marschalek, Birgitte Preiss, H. Hasle, E. Kjeldsen, Horacio Rivera, M.G. Dom\u00ednguez, A.I. V\u00e1squez-Vel\u00e1squez, Iosif W. Lurie, B. Dutrillaux, A.M. Dutrillaux, Prerna Pandey, Alexander J. P. Houben, Jochen Kumlehn, Michael J. Melzer, Twan Rutten, Pranab Jyoti Das, Deepak Mishra, Sujay Ghosh, Felipe Avila, Gregory A. Johnson, B.P. Chowdhary, Terje Raudsepp, Martin Forman, Phuong Nguyen, Vladim\u00edr Hula, J Kr\u00e1l, Nicholas Chia, M. Bryce, Peter E. Hickman, J.M. Potter, Nicholas Glasgow, G. Koerbin, Patrick Danoy, Mark A. Brown, Joseph E. Cavanaugh, John Barber, Raquel Rodrigues, V. Maloney, F. Taborda, M. do C. Rodrigues, Mark S. Bateman, Yongchang Cao, Ruo Yuan, Yung\u2010Song Wang, Rongjie Chen, Ming Hua Huang, Jing Zhou, Satz Mengensatzproduktion, Druck Reinhardt Druck Basel, Druck Reinhardt Druck Basel, KMC",
+      "venue": "Cytogenetic and Genome Research",
+      "year": 2013,
+      "doi": "10.1159/000354589",
+      "url": "https://doi.org/10.1159/000354589",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "UKF based multi-component phase estimation in digital holographic Moir&amp;#x00E9;",
+      "authors": "Rahul G. Waghmare, Deepak Mishra, Sai Subrahmanyam G. R. K",
+      "venue": "Unknown Venue",
+      "year": 2013,
+      "doi": "10.1109/ncvpripg.2013.6776212",
+      "url": "https://doi.org/10.1109/ncvpripg.2013.6776212",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "A Novel and Cost Effective Approach to Public Vehicle Tracking System",
+      "authors": "Deepak Mishra",
+      "venue": "International Journal of UbiComp",
+      "year": 2012,
+      "doi": "10.5121/iju.2012.3104",
+      "url": "https://doi.org/10.5121/iju.2012.3104",
+      "type": "Conference",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "A novel stereoscopic approach for smooth navigation of rover",
+      "authors": "A. Patil, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2012,
+      "doi": "10.1109/iccic.2012.6510286",
+      "url": "https://doi.org/10.1109/iccic.2012.6510286",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Hybrid Concatenated Convolutional Code for Deep Space Mission",
+      "authors": "Deepak Mishra, S.Jit S.Jit, K. S. Dasgupta",
+      "venue": "International Journal of Computer Applications",
+      "year": 2012,
+      "doi": "10.5120/7298-0539",
+      "url": "https://doi.org/10.5120/7298-0539",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Image Classification Based On Color Descriptor And SVD",
+      "authors": "Ashok Kumar Shrivastava, Deepak Mishra, Pharindra Kumar Sharma",
+      "venue": "Unknown Venue",
+      "year": 2012,
+      "doi": "",
+      "url": "https://www.ijert.org/research/image-classification-based-on-color-descriptor-and-svd-IJERTV1IS6336.pdf",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Bioadsorption of Arsenic: An Artificial Neural Networks and Response Surface Methodological Approach",
+      "authors": "D. Ranjan, Deepak Mishra, Syed Hadi Hasan",
+      "venue": "Industrial & Engineering Chemistry Research",
+      "year": 2011,
+      "doi": "10.1021/ie200612f",
+      "url": "https://doi.org/10.1021/ie200612f",
+      "type": "Conference",
+      "area": "Deep Learning"
+    },
+    {
+      "title": "Deployment of GSM and RFID Technologies for Public Vehicle Position Tracking System",
+      "authors": "Apurv Vasal, Deepak Mishra, Puneet Tandon",
+      "venue": "Communications in computer and information science",
+      "year": 2010,
+      "doi": "10.1007/978-3-642-17878-8_20",
+      "url": "https://doi.org/10.1007/978-3-642-17878-8_20",
+      "type": "Book Chapter",
+      "area": "Visual Object Tracking"
+    },
+    {
+      "title": "Influence of a symmetric lossless beam splitter on a non-classical feature of an optical field",
+      "authors": "Hari Prakash, Deepak Mishra",
+      "venue": "Optics and Spectroscopy",
+      "year": 2007,
+      "doi": "10.1134/s0030400x07070223",
+      "url": "https://doi.org/10.1134/s0030400x07070223",
+      "type": "Conference",
+      "area": "Computer Vision"
+    },
+    {
+      "title": "Enhancement of sum squeezing of an optical field by mixing with a two-mode coherent light beam using a beam splitter",
+      "authors": "Hari Prakash, Deepak Mishra",
+      "venue": "Unknown Venue",
+      "year": 2005,
+      "doi": "10.1109/iqec.2005.1561073",
+      "url": "https://doi.org/10.1109/iqec.2005.1561073",
+      "type": "Conference",
+      "area": "Computer Vision"
+    }
+  ]
+}
