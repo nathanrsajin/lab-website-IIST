@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Core research directions of the Computer Vision and Virtual Reality Lab (CVVR Lab) at IIST, including satellite image analysis, biometrics, computational neuroscience, and deep visual learning.">
+  <title>Research Themes | CVVR Lab</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Loader Screen -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <img class="loader-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="CVVR Lab home">
+      <img class="brand-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <span>CVVR Lab</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="people.html">People</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <p class="eyebrow">Scientific Directions</p>
+      <h1>Visual intelligence for space applications and high-stakes perception.</h1>
+      <p>The laboratory's research efforts are divided into key algorithmic and domain-specific themes, combining theoretical neural models with real-world sensor applications.</p>
+    </section>
+
+    <!-- Research Themes Grid (Rendered dynamically via main.js) -->
+    <section class="section">
+      <div class="research-grid" id="researchGrid"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img class="footer-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+        <span>CVVR Lab</span>
+      </div>
+      <div class="footer-text">
+        <p>Computer Vision and Virtual Reality Lab, Department of Avionics, IIST</p>
+        <p>Valiamala, Thiruvananthapuram, Kerala 695547, India</p>
+        <p>&copy; <span id="year"></span> CVVR Lab. Built for GitHub Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

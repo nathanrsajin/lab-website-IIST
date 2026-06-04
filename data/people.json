@@ -1,0 +1,136 @@
+[
+  {
+    "category": "Faculty & Principal Investigator",
+    "members": [
+      {
+        "name": "Prof. Deepak Mishra",
+        "initials": "DM",
+        "role": "Professor & Head, Department of Avionics",
+        "researchArea": "Computer vision, image processing, deep learning, biometrics, computational neuroscience, and remote sensing.",
+        "links": [
+          { "label": "IIST Profile", "url": "pi.html" },
+          { "label": "IRINS", "url": "https://vidwan.inflibnet.ac.in/profile/20349" },
+          { "label": "Scholar", "url": "https://scholar.google.com/citations?user=r-1hZ9wAAAAJ" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "PhD Scholars",
+    "members": [
+      {
+        "name": "Rahul G. Waghmare",
+        "initials": "RW",
+        "role": "Doctoral Researcher",
+        "researchArea": "Thermal imaging, biometric pattern recognition, and computational neuroscience.",
+        "links": [
+          { "label": "Google Scholar", "url": "https://scholar.google.com/" }
+        ]
+      },
+      {
+        "name": "Aiman Farooq",
+        "initials": "AF",
+        "role": "Doctoral Researcher",
+        "researchArea": "Deep representation learning, face biometrics, and secure authentication.",
+        "links": [
+          { "label": "Google Scholar", "url": "https://scholar.google.com/" }
+        ]
+      },
+      {
+        "name": "M. S. Vidya",
+        "initials": "MV",
+        "role": "Doctoral Researcher",
+        "researchArea": "Satellite image fusion, object-based image analysis, and remote sensing classification.",
+        "links": [
+          { "label": "ResearchGate", "url": "https://www.researchgate.net/" }
+        ]
+      },
+      {
+        "name": "G. Preethisree",
+        "initials": "GP",
+        "role": "Doctoral Researcher",
+        "researchArea": "Hyperspectral image processing and machine learning for remote sensing.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "category": "MTech & BTech Project Students",
+    "members": [
+      {
+        "name": "Arjun Kumar",
+        "initials": "AK",
+        "role": "MTech Scholar (Digital Signal Processing)",
+        "researchArea": "Disaster simulation and scene visualization in Virtual Reality.",
+        "links": []
+      },
+      {
+        "name": "Ananya Sen",
+        "initials": "AS",
+        "role": "MTech Scholar (Avionics)",
+        "researchArea": "Visual object tracking and depth mapping from stereo cameras.",
+        "links": []
+      },
+      {
+        "name": "BTech Intern",
+        "initials": "BI",
+        "role": "Undergraduate Researcher",
+        "researchArea": "OpenCV-based real-time object tracking prototype.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "category": "Key Alumni",
+    "members": [
+      {
+        "name": "Dr. Rohit Gandikota",
+        "initials": "RG",
+        "role": "Former Research Scholar (PhD)",
+        "researchArea": "Deep learning models, diffusion models, and generative AI research.",
+        "links": [
+          { "label": "Scholar", "url": "https://scholar.google.com/" }
+        ]
+      },
+      {
+        "name": "L. Vidya",
+        "initials": "LV",
+        "role": "Former Research Scholar (MTech)",
+        "researchArea": "Biometrics and advanced pattern recognition algorithms.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "category": "Research Collaborators",
+    "members": [
+      {
+        "name": "Prof. Rama Krishna Gorthi",
+        "initials": "RG",
+        "role": "Professor, Department of Electrical Engineering, IIT Tirupati",
+        "researchArea": "Computer vision, image reconstruction, and collaborative sensor systems.",
+        "links": [
+          { "label": "Faculty Page", "url": "https://iittp.ac.in/" }
+        ]
+      },
+      {
+        "name": "Dr. J. Sheeba Rani",
+        "initials": "SR",
+        "role": "Associate Professor, Dept of Avionics, IIST",
+        "researchArea": "VLSI design, digital signal processing, and hardware vision systems.",
+        "links": [
+          { "label": "IIST Profile", "url": "https://www.iist.ac.in/" }
+        ]
+      },
+      {
+        "name": "Dr. Rajesh Sadanandan",
+        "initials": "RS",
+        "role": "Associate Professor, Dept of Aerospace Engineering, IIST",
+        "researchArea": "Laser diagnostics, thermal imaging, and fluid flow visualization.",
+        "links": [
+          { "label": "IIST Profile", "url": "https://www.iist.ac.in/" }
+        ]
+      }
+    ]
+  }
+]
