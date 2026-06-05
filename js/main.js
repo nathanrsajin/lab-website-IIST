@@ -364,6 +364,111 @@ function renderCourses() {
   `).join("");
 }
 
+// 12. Hero slideshow animator
+function initHeroSlideshow() {
+  const slides = $$(".hero-slide");
+  if (!slides.length) return;
+  
+  let currentSlide = 0;
+  setInterval(() => {
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }, 5000); // fade every 5 seconds
+}
+
+// 13. Lightbox modal controller for gallery
+function initLightbox() {
+  const galleryItems = $$(".gallery-item");
+  const lightbox = $("#lightbox");
+  if (!galleryItems.length || !lightbox) return;
+
+  const lightboxImg = $("#lightboxImg");
+  const lightboxCaption = $("#lightboxCaption");
+  const closeBtn = $("#lightboxClose");
+  const prevBtn = $("#lightboxPrev");
+  const nextBtn = $("#lightboxNext");
+  
+  let currentIndex = 0;
+  
+  // Extract slide data from DOM elements
+  const images = galleryItems.map(item => {
+    const imgEl = $("img", item);
+    const captionEl = $(".gallery-caption", item);
+    return {
+      src: imgEl ? imgEl.getAttribute("src") : "",
+      alt: imgEl ? imgEl.getAttribute("alt") : "",
+      caption: captionEl ? captionEl.textContent : ""
+    };
+  });
+  
+  function openLightbox(index) {
+    currentIndex = index;
+    updateLightbox();
+    lightbox.classList.add("active");
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.classList.add("nav-open"); // locks background scroll
+    if (closeBtn) closeBtn.focus();
+  }
+  
+  function closeLightbox() {
+    lightbox.classList.remove("active");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("nav-open"); // restores scroll
+  }
+  
+  function updateLightbox() {
+    const data = images[currentIndex];
+    if (lightboxImg && data) {
+      lightboxImg.src = data.src;
+      lightboxImg.alt = data.alt;
+    }
+    if (lightboxCaption && data) {
+      lightboxCaption.textContent = data.caption;
+    }
+  }
+  
+  function showNext() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateLightbox();
+  }
+  
+  function showPrev() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateLightbox();
+  }
+  
+  galleryItems.forEach((item, index) => {
+    item.addEventListener("click", () => {
+      openLightbox(index);
+    });
+  });
+  
+  if (closeBtn) closeBtn.addEventListener("click", closeLightbox);
+  if (nextBtn) nextBtn.addEventListener("click", showNext);
+  if (prevBtn) prevBtn.addEventListener("click", showPrev);
+  
+  // Close on backdrop click (clicking outside image content wrapper)
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+      closeLightbox();
+    }
+  });
+  
+  // Keyboard accessibility navigation
+  document.addEventListener("keydown", (e) => {
+    if (!lightbox.classList.contains("active")) return;
+    
+    if (e.key === "Escape") {
+      closeLightbox();
+    } else if (e.key === "ArrowRight") {
+      showNext();
+    } else if (e.key === "ArrowLeft") {
+      showPrev();
+    }
+  });
+}
+
 // Initialise widgets
 animateCounters();
 drawStarfield();
@@ -373,3 +478,5 @@ renderProjects().catch(console.error);
 renderPeople().catch(console.error);
 renderFacilities();
 renderCourses();
+initHeroSlideshow();
+initLightbox();

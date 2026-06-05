@@ -43,6 +43,7 @@
       <a href="people.html">People</a>
       <a href="teaching.html">Teaching</a>
       <a href="facilities.html">Facilities</a>
+      <a href="#gallery">Gallery</a>
       <a href="news.html">News</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -51,7 +52,11 @@
   <main>
     <!-- Hero Section -->
     <section class="hero">
-      <div class="hero-media" role="img" aria-label="Space perception background visualization"></div>
+      <div class="hero-slideshow">
+        <div class="hero-slide active" style="background-image: linear-gradient(90deg, rgba(10, 13, 20, 0.96) 0%, rgba(10, 13, 20, 0.85) 45%, rgba(10, 13, 20, 0.5) 100%), linear-gradient(0deg, var(--bg) 0%, rgba(10, 13, 20, 0) 30%), url('assets/images/gallery/photo1-robot-platform.jpg');" role="img" aria-label="Robot manipulation platform and autonomous mobile robot"></div>
+        <div class="hero-slide" style="background-image: linear-gradient(90deg, rgba(10, 13, 20, 0.96) 0%, rgba(10, 13, 20, 0.85) 45%, rgba(10, 13, 20, 0.5) 100%), linear-gradient(0deg, var(--bg) 0%, rgba(10, 13, 20, 0) 30%), url('assets/images/gallery/photo2-lab-wide-view.jpg');" role="img" aria-label="Wide-angle view of the complete CVVR laboratory showing students working"></div>
+        <div class="hero-slide" style="background-image: linear-gradient(90deg, rgba(10, 13, 20, 0.96) 0%, rgba(10, 13, 20, 0.85) 45%, rgba(10, 13, 20, 0.5) 100%), linear-gradient(0deg, var(--bg) 0%, rgba(10, 13, 20, 0) 30%), url('assets/images/gallery/photo7-computing-infrastructure.jpg');" role="img" aria-label="Laboratory infrastructure, workstations and computing facilities"></div>
+      </div>
       <div class="hero-content">
         <img class="hero-logo" src="images/logo.svg" alt="CVVR Lab Logo">
         <p class="eyebrow">Department of Avionics | Indian Institute of Space Science and Technology</p>
@@ -94,14 +99,19 @@
 
     <!-- About Lab -->
     <section class="section two-column" id="about">
-      <div>
+      <div class="about-text-column">
         <p class="eyebrow">About The Lab</p>
         <h2>Perception systems for Earth observation and immersive computing.</h2>
+        <div class="rich-text">
+          <p>The CVVR Lab at IIST supports advanced research at the intersection of computer vision, deep neural network modeling, virtual environments, and avionics applications. Our primary mission is to solve high-stakes visual inference challenges relevant to the space sector, disaster management, and medical analytics.</p>
+          <p>Led by Prof. Deepak Mishra, the group combines robust mathematical formulation with state-of-the-art computational infrastructure. The laboratory is equipped with thermal sensing systems, stereo cameras, high-throughput GigE interfaces, immersive VR setups, and dedicated GPU computing nodes.</p>
+          <p>We actively collaborate with government research institutions (including ISRO centers and NRSC), top-tier academic institutes, and industrial partners to translate deep learning algorithms into deployable technology for high-resolution optical analysis, landslide monitoring, and training simulation environments.</p>
+        </div>
       </div>
-      <div class="rich-text">
-        <p>The CVVR Lab at IIST supports advanced research at the intersection of computer vision, deep neural network modeling, virtual environments, and avionics applications. Our primary mission is to solve high-stakes visual inference challenges relevant to the space sector, disaster management, and medical analytics.</p>
-        <p>Led by Prof. Deepak Mishra, the group combines robust mathematical formulation with state-of-the-art computational infrastructure. The laboratory is equipped with thermal sensing systems, stereo cameras, high-throughput GigE interfaces, immersive VR setups, and dedicated GPU computing nodes.</p>
-        <p>We actively collaborate with government research institutions (including ISRO centers and NRSC), top-tier academic institutes, and industrial partners to translate deep learning algorithms into deployable technology for high-resolution optical analysis, landslide monitoring, and training simulation environments.</p>
+      <div class="about-image-column">
+        <div class="image-card glow-card">
+          <img src="assets/images/gallery/photo2-lab-wide-view.jpg" alt="CVVR Laboratory Research Environment" loading="lazy">
+        </div>
       </div>
     </section>
 
@@ -130,6 +140,67 @@
           <p>Synthesizing immersive simulators, interaction paradigms, and training tools for space exploration and disaster response simulations.</p>
           <a href="research.html" class="text-link">Read more &rarr;</a>
         </article>
+      </div>
+    </section>
+
+    <!-- Lab Infrastructure Section -->
+    <section class="section two-column" id="infrastructure">
+      <div class="infra-image-column">
+        <div class="image-card glow-card">
+          <img src="assets/images/gallery/photo1-robot-platform.jpg" alt="Advanced Robotic Manipulation and Mobile Robotics Platform" loading="lazy">
+        </div>
+      </div>
+      <div class="infra-text-column">
+        <p class="eyebrow">Facilities</p>
+        <h2>Research Infrastructure</h2>
+        <div class="card glow-card" style="margin-top: 1rem; width: 100%;">
+          <p>The CVVR Lab integrates custom robotic sensing with high-performance computational hardware to enable physical experiment testing and validation:</p>
+          <ul class="infra-list" style="list-style: none; margin-top: 1rem; padding-left: 0;">
+            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.8rem; color: var(--muted);"><strong style="color: var(--text);">Mobile robotics platform:</strong> Autonomous mobile robot and robot manipulation platform for control and navigation tests.</li>
+            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.8rem; color: var(--muted);"><strong style="color: var(--text);">Computer vision systems:</strong> Industrial stereo vision baseline configurations, thermal sensors, and high-frequency frame-grabbers.</li>
+            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.8rem; color: var(--muted);"><strong style="color: var(--text);">Deep learning workstations:</strong> Dedicated GPU-accelerated computing nodes supporting large-scale representation training.</li>
+            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.8rem; color: var(--muted);"><strong style="color: var(--text);">Autonomous navigation research:</strong> Visual SLAM, path planning, and multi-sensor fusion algorithms.</li>
+            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.8rem; color: var(--muted);"><strong style="color: var(--text);">Human-robot interaction research:</strong> Virtual environments and immersive simulation setups for interactive training.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Laboratory Gallery Section -->
+    <section class="section section-alt" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">Visual Tour</p>
+        <h2>Laboratory Gallery</h2>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-index="0">
+          <img src="assets/images/gallery/photo1-robot-platform.jpg" alt="Advanced Robotic Manipulation and Mobile Robotics Platform" loading="lazy">
+          <div class="gallery-caption">Advanced Robotic Manipulation and Mobile Robotics Platform</div>
+        </div>
+        <div class="gallery-item" data-index="1">
+          <img src="assets/images/gallery/photo2-lab-wide-view.jpg" alt="CVVR Laboratory Research Environment" loading="lazy">
+          <div class="gallery-caption">CVVR Laboratory Research Environment</div>
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img src="assets/images/gallery/photo3-student-workstation.jpg" alt="Student Research Workstation" loading="lazy">
+          <div class="gallery-caption">Student Research Workstation</div>
+        </div>
+        <div class="gallery-item" data-index="3">
+          <img src="assets/images/gallery/photo4-professor-workspace.jpg" alt="Faculty Research and Development Workspace" loading="lazy">
+          <div class="gallery-caption">Faculty Research and Development Workspace</div>
+        </div>
+        <div class="gallery-item" data-index="4">
+          <img src="assets/images/gallery/photo5-scholar-workspace.jpg" alt="Research Scholar Computing Facility" loading="lazy">
+          <div class="gallery-caption">Research Scholar Computing Facility</div>
+        </div>
+        <div class="gallery-item" data-index="5">
+          <img src="assets/images/gallery/photo6-collaborative-students.jpg" alt="Collaborative Student Research Activities" loading="lazy">
+          <div class="gallery-caption">Collaborative Student Research Activities</div>
+        </div>
+        <div class="gallery-item" data-index="6">
+          <img src="assets/images/gallery/photo7-computing-infrastructure.jpg" alt="High-Performance Computing Infrastructure" loading="lazy">
+          <div class="gallery-caption">High-Performance Computing Infrastructure</div>
+        </div>
       </div>
     </section>
 
@@ -183,6 +254,17 @@
       </div>
     </div>
   </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox-modal" aria-hidden="true" role="dialog" aria-label="Image gallery fullscreen view">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close fullscreen view">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
