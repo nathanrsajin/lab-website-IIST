@@ -50,7 +50,9 @@
         "initials": "GP",
         "role": "Doctoral Researcher",
         "researchArea": "Hyperspectral image processing and machine learning for remote sensing.",
-        "links": []
+        "links": [
+          { "label": "ResearchGate", "url": "https://www.researchgate.net/scientific-contributions/G-Preethisree-2240189076" }
+        ]
       }
     ]
   },
