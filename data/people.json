@@ -37,6 +37,26 @@
         "links": [
           { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=farPePcAAAAJ&hl=en" }
         ]
+      },
+      {
+        "name": "Krishnendu Lalaji",
+        "initials": "KL",
+        "role": "Research Associate",
+        "photo": "assets/images/people/krishnendu-lalaji-workstation.jpg",
+        "researchArea": "Computer vision and applied visual computing for CVVR Lab research.",
+        "links": [
+          { "label": "ResearchGate", "url": "https://www.researchgate.net/profile/Krishnendu-Lalaji" }
+        ]
+      },
+      {
+        "name": "Ramzan Basheer",
+        "initials": "RB",
+        "role": "Research Associate",
+        "photo": "assets/images/people/ramzan-basheer.jpg",
+        "researchArea": "Machine learning, geometric deep learning, and graph neural networks.",
+        "links": [
+          { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=qPyFnlAAAAAJ&hl=en" }
+        ]
       }
     ]
   },
