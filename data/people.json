@@ -16,6 +16,31 @@
     ]
   },
   {
+    "category": "Research Associates",
+    "members": [
+      {
+        "name": "Jayakumar T V",
+        "initials": "JT",
+        "role": "Research Associate",
+        "photo": "assets/images/people/jayakumar-t-v-hololens.jpg",
+        "researchArea": "Deep learning and computer vision for remote sensing applications.",
+        "links": [
+          { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=vYSoNJEAAAAJ&hl=en" }
+        ]
+      },
+      {
+        "name": "Nirmala Murali",
+        "initials": "NM",
+        "role": "Research Associate",
+        "photo": "assets/images/people/nirmala-murali-workstation.jpg",
+        "researchArea": "Computer vision for person re-identification using optimal transport theory.",
+        "links": [
+          { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=farPePcAAAAJ&hl=en" }
+        ]
+      }
+    ]
+  },
+  {
     "category": "PhD Scholars",
     "members": [
       {

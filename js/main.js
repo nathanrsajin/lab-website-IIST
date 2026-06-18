@@ -244,7 +244,7 @@ async function renderPeople() {
         <div class="card-grid">
           ${g.members.map((m) => `
             <article class="card">
-              <div class="avatar">${m.initials}</div>
+              <div class="avatar">${m.photo ? `<img class="profile-photo" src="${m.photo}" alt="${m.name}">` : m.initials}</div>
               <h3>${m.name}</h3>
               <p class="small-meta">${m.role}</p>
               <p>${m.researchArea}</p>
