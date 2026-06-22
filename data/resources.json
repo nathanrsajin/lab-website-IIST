@@ -1,0 +1,263 @@
+[
+  {
+    "id": "ls-01",
+    "type": "Lecture Slides",
+    "title": "Computer Vision Fundamentals",
+    "course": "Computer Vision",
+    "description": "Introduction to pinhole camera models, projective geometry, and image formation.",
+    "pages": 45,
+    "date": "2023",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Available upon request",
+    "tags": ["Computer Vision", "Geometry"]
+  },
+  {
+    "id": "ls-02",
+    "type": "Lecture Slides",
+    "title": "Deep Learning architectures for CV",
+    "course": "Deep Learning for Computer Vision",
+    "description": "Comprehensive overview of CNNs, ResNets, and Vision Transformers.",
+    "pages": 60,
+    "date": "2024",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Available upon request",
+    "tags": ["Deep Learning", "CNN", "Transformers"]
+  },
+  {
+    "id": "ls-03",
+    "type": "Lecture Slides",
+    "title": "Adaptive Neural Processing",
+    "course": "Machine Learning for Signal Processing",
+    "description": "Detailed slides on statistical learning and feature extraction.",
+    "pages": 38,
+    "date": "2023",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Available upon request",
+    "tags": ["Machine Learning", "Signal Processing"]
+  },
+  {
+    "id": "ls-04",
+    "type": "Lecture Slides",
+    "title": "Image Enhancements and Filtering",
+    "course": "Digital Image Processing",
+    "description": "Fourier transforms, spatial filtering, and image restoration techniques.",
+    "pages": 52,
+    "date": "2022",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Available upon request",
+    "tags": ["Image Processing", "Fourier"]
+  },
+  {
+    "id": "ls-05",
+    "type": "Lecture Slides",
+    "title": "Virtual Reality Interaction",
+    "course": "Virtual Reality Systems",
+    "description": "3D interaction, viewing transforms, and haptic feedback displays.",
+    "pages": 40,
+    "date": "2023",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Available upon request",
+    "tags": ["Virtual Reality", "Haptics"]
+  },
+  {
+    "id": "pr-01",
+    "type": "Presentations",
+    "title": "Advancements in Object Tracking",
+    "course": "Keynote Talk",
+    "description": "Keynote presentation at IEEE MAPCON on robust object tracking under domain shifts.",
+    "date": "2023",
+    "pdfUrl": "javascript:void(0)",
+    "sourceUrl": "https://ieeemapcon.org",
+    "status": "Available upon request",
+    "tags": ["Object Tracking", "Keynote", "IEEE"]
+  },
+  {
+    "id": "pr-02",
+    "type": "Presentations",
+    "title": "Deep Learning for Remote Sensing",
+    "course": "Workshop Presentation",
+    "description": "Workshop slides on hyperspectral image classification and landslide monitoring.",
+    "date": "2022",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Available upon request",
+    "tags": ["Remote Sensing", "Workshop"]
+  },
+  {
+    "id": "rp-01",
+    "type": "Research Papers",
+    "title": "Robust Correlation Filter Tracking",
+    "authors": "Deepak Mishra et al.",
+    "course": "Featured Reading",
+    "description": "A seminal paper on visual object tracking using correlation filters.",
+    "publisher": "IEEE",
+    "year": "2021",
+    "doi": "10.1109/LRA.2021",
+    "pdfUrl": "javascript:void(0)",
+    "sourceUrl": "https://scholar.google.com/citations?user=jv4rukwAAAAJ&hl=en",
+    "tags": ["Object Tracking", "Computer Vision"]
+  },
+  {
+    "id": "rp-02",
+    "type": "Research Papers",
+    "title": "High-Resolution Satellite Image Classification",
+    "authors": "Deepak Mishra et al.",
+    "course": "Featured Reading",
+    "description": "Methodology for classifying land-use in remote sensing applications.",
+    "publisher": "ISPRS",
+    "year": "2022",
+    "doi": "10.1016/j.isprsjprs",
+    "pdfUrl": "javascript:void(0)",
+    "sourceUrl": "https://scholar.google.com/citations?user=jv4rukwAAAAJ&hl=en",
+    "tags": ["Remote Sensing", "Satellite Imaging"]
+  },
+  {
+    "id": "ds-01",
+    "type": "Datasets",
+    "title": "Object Tracking Benchmark (OTB)",
+    "course": "Object Tracking",
+    "description": "Standard dataset with annotated videos for tracking evaluation.",
+    "size": "2GB+",
+    "sourceUrl": "http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html",
+    "tags": ["Object Tracking", "Benchmark"]
+  },
+  {
+    "id": "ds-02",
+    "type": "Datasets",
+    "title": "Visual Object Tracking (VOT)",
+    "course": "Object Tracking",
+    "description": "Challenging sequences for short-term tracking evaluation.",
+    "size": "Variable",
+    "sourceUrl": "https://www.votchallenge.net/",
+    "tags": ["Object Tracking", "Benchmark"]
+  },
+  {
+    "id": "ds-03",
+    "type": "Datasets",
+    "title": "DeepGlobe Land Cover Classification",
+    "course": "Remote Sensing",
+    "description": "High-resolution satellite imagery for land cover segmentation.",
+    "size": "4GB",
+    "sourceUrl": "https://competitions.codalab.org/competitions/18466",
+    "tags": ["Satellite Imaging", "Segmentation"]
+  },
+  {
+    "id": "sw-01",
+    "type": "Software",
+    "title": "PyTorch",
+    "course": "Deep Learning",
+    "description": "Open source machine learning framework that accelerates the path from research prototyping to production.",
+    "sourceUrl": "https://pytorch.org/",
+    "status": "Official Website",
+    "tags": ["Python", "Deep Learning"]
+  },
+  {
+    "id": "sw-02",
+    "type": "Software",
+    "title": "OpenCV",
+    "course": "Computer Vision",
+    "description": "Open Source Computer Vision Library for real-time computer vision.",
+    "sourceUrl": "https://opencv.org/",
+    "status": "Official Website",
+    "tags": ["C++", "Python", "Vision"]
+  },
+  {
+    "id": "sw-03",
+    "type": "Software",
+    "title": "MATLAB",
+    "course": "Signal Processing",
+    "description": "Programming and numeric computing platform used by millions of engineers and scientists.",
+    "sourceUrl": "https://www.mathworks.com/products/matlab.html",
+    "status": "Official Website",
+    "tags": ["Signal Processing", "Analysis"]
+  },
+  {
+    "id": "sw-04",
+    "type": "Software",
+    "title": "TensorFlow",
+    "course": "Deep Learning",
+    "description": "End-to-end open source platform for machine learning.",
+    "sourceUrl": "https://www.tensorflow.org/",
+    "status": "Official Website",
+    "tags": ["Python", "Deep Learning"]
+  },
+  {
+    "id": "sw-05",
+    "type": "Software",
+    "title": "Blender",
+    "course": "Virtual Reality",
+    "description": "Free and open source 3D creation suite.",
+    "sourceUrl": "https://www.blender.org/",
+    "status": "Official Website",
+    "tags": ["3D Modeling", "VR"]
+  },
+  {
+    "id": "sr-01",
+    "type": "Student Resources",
+    "title": "Research Writing Guidelines",
+    "course": "Guides",
+    "description": "Formatting and structuring guidelines for IEEE/ACM academic papers.",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Coming Soon",
+    "tags": ["Writing", "Guidelines"]
+  },
+  {
+    "id": "sr-02",
+    "type": "Student Resources",
+    "title": "Thesis Template (LaTeX)",
+    "course": "Templates",
+    "description": "Official CVVR Lab LaTeX template for M.Tech and PhD theses.",
+    "sourceUrl": "javascript:void(0)",
+    "status": "Coming Soon",
+    "tags": ["LaTeX", "Thesis"]
+  },
+  {
+    "id": "sr-03",
+    "type": "Student Resources",
+    "title": "Coding Standards",
+    "course": "Guides",
+    "description": "Best practices for Python and C++ code organization in the lab.",
+    "pdfUrl": "javascript:void(0)",
+    "status": "Available upon request",
+    "tags": ["Coding", "Python", "C++"]
+  },
+  {
+    "id": "sr-04",
+    "type": "Student Resources",
+    "title": "Presentation Template",
+    "course": "Templates",
+    "description": "Standardized PowerPoint/Keynote template for lab presentations.",
+    "sourceUrl": "javascript:void(0)",
+    "status": "Coming Soon",
+    "tags": ["Presentation", "PPT"]
+  },
+  {
+    "id": "pa-01",
+    "type": "Publications Archive",
+    "title": "Complete BibTeX Archive",
+    "course": "Citations",
+    "description": "Download the complete BibTeX file for all CVVR Lab publications.",
+    "sourceUrl": "javascript:void(0)",
+    "status": "Coming Soon",
+    "tags": ["BibTeX", "Citations"]
+  },
+  {
+    "id": "pa-02",
+    "type": "Publications Archive",
+    "title": "Google Scholar Profile",
+    "course": "External Links",
+    "description": "View Prof. Deepak Mishra's official Google Scholar profile.",
+    "sourceUrl": "https://scholar.google.com/citations?user=jv4rukwAAAAJ&hl=en",
+    "status": "Official Link",
+    "tags": ["Google Scholar", "Profile"]
+  },
+  {
+    "id": "pa-03",
+    "type": "Publications Archive",
+    "title": "ResearchGate Profile",
+    "course": "External Links",
+    "description": "Access full-text preprints and discussions on ResearchGate.",
+    "sourceUrl": "https://www.researchgate.net/profile/Deepak-Mishra-14",
+    "status": "Official Link",
+    "tags": ["ResearchGate", "Preprints"]
+  }
+]

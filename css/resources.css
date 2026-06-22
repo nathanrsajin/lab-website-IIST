@@ -1,0 +1,263 @@
+/* Layout Styles for Resources Page */
+.resources-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .resources-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Sidebar Styling */
+.resources-sidebar {
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.sidebar-widget h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.5rem;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.sidebar-list a, .sidebar-list button.text-link {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  text-align: left;
+}
+
+.sidebar-list a:hover, .sidebar-list button.text-link:hover {
+  color: var(--accent-2);
+}
+
+/* Search Bar Area */
+.resources-search-bar {
+  display: grid;
+  grid-template-columns: 1fr 250px auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .resources-search-bar {
+    grid-template-columns: 1fr;
+  }
+}
+
+.view-toggles {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Main Resources Grid/List */
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.resources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Resource Card */
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.resources-list .resource-card {
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 600px) {
+  .resources-list .resource-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+.resource-card .card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.resource-card h3 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.resource-card p {
+  font-size: 0.9rem;
+  margin-bottom: auto; /* Pushes buttons to bottom in grid view */
+}
+
+.resource-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.resource-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.resource-actions .btn {
+  padding: 0 1rem;
+  min-height: 2.2rem;
+  font-size: 0.85rem;
+}
+
+/* PDF Modal Styling */
+.pdf-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.pdf-modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.pdf-modal-content {
+  width: 90vw;
+  height: 90vh;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transform: scale(0.95);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pdf-modal.active .pdf-modal-content {
+  transform: scale(1);
+}
+
+.pdf-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg-2);
+}
+
+.pdf-modal-header h3 {
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50%;
+}
+
+.pdf-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pdf-modal-actions .btn {
+  min-height: 2.2rem;
+  padding: 0 1rem;
+}
+
+.pdf-modal-close {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.pdf-modal-close:hover {
+  color: var(--accent);
+}
+
+.pdf-modal-body {
+  flex: 1;
+  background: #fff; /* PDFs usually need white background */
+}
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s;
+  z-index: 90;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--accent-2);
+  transform: translateY(-5px);
+}

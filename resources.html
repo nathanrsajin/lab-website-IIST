@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic resources, datasets, software, and lecture slides by Prof. Deepak Mishra at CVVR Lab.">
+  <title>Resources | CVVR Lab</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/resources.css">
+</head>
+<body>
+  <!-- Loader Screen -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <img class="loader-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="CVVR Lab home">
+      <img class="brand-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <span>CVVR Lab</span>
+    </a>
+    
+    <div class="header-controls">
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="facilities.html">Lab</a>
+        <a href="resources.html" class="active">Resources</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Knowledge Repository</p>
+      <h1>CVVR Lab Resources</h1>
+      <p>Publicly available lecture slides, datasets, software tools, and research presentations associated with Prof. Deepak Mishra.</p>
+    </section>
+
+    <!-- Search & Filter Bar -->
+    <section class="section section-alt" style="padding-bottom: 2rem; border-bottom: none;">
+      <div class="filters resources-search-bar">
+        <input type="text" id="searchInput" placeholder="Search resources by title, keyword, or author..." aria-label="Search resources">
+        <select id="categoryFilter" aria-label="Filter by category">
+          <option value="All">All Categories</option>
+          <option value="Lecture Slides">Lecture Slides</option>
+          <option value="Presentations">Presentations</option>
+          <option value="Research Papers">Featured Research</option>
+          <option value="Datasets">Research Datasets</option>
+          <option value="Software">Software & Tools</option>
+          <option value="Student Resources">Student Resources</option>
+          <option value="Publications Archive">Publications Archive</option>
+        </select>
+        <div class="view-toggles">
+          <button id="gridViewBtn" class="btn active" aria-label="Grid View">Grid</button>
+          <button id="listViewBtn" class="btn" aria-label="List View">List</button>
+        </div>
+      </div>
+      <div class="result-meta">
+        <span id="resultCount">Loading resources...</span>
+      </div>
+    </section>
+
+    <!-- Main Content Layout -->
+    <section class="section">
+      <div class="resources-layout">
+        <!-- Sidebar: Bonus Features -->
+        <aside class="resources-sidebar">
+          <div class="sidebar-widget">
+            <h3>Featured Links</h3>
+            <ul class="sidebar-list">
+              <li><a href="https://scholar.google.com/citations?user=jv4rukwAAAAJ&hl=en" target="_blank" rel="noreferrer">Prof. Mishra Google Scholar</a></li>
+              <li><a href="https://www.researchgate.net/profile/Deepak-Mishra-14" target="_blank" rel="noreferrer">ResearchGate Profile</a></li>
+              <li><a href="https://www.iist.ac.in/avionics/deepak.mishra" target="_blank" rel="noreferrer">IIST Faculty Profile</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-widget">
+            <h3>Quick Filters</h3>
+            <ul class="sidebar-list" id="quickFilters">
+              <li><button class="text-link" data-tag="Computer Vision">Computer Vision</button></li>
+              <li><button class="text-link" data-tag="Deep Learning">Deep Learning</button></li>
+              <li><button class="text-link" data-tag="Object Tracking">Object Tracking</button></li>
+              <li><button class="text-link" data-tag="Remote Sensing">Remote Sensing</button></li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- Resources Grid/List -->
+        <div class="resources-main">
+          <div id="resourcesContainer" class="resources-grid">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PDF Viewer Modal -->
+  <div id="pdfModal" class="pdf-modal" aria-hidden="true" role="dialog" aria-label="PDF Viewer">
+    <div class="pdf-modal-content">
+      <div class="pdf-modal-header">
+        <h3 id="pdfModalTitle">Viewing Document</h3>
+        <div class="pdf-modal-actions">
+          <a id="pdfModalDownload" href="#" class="btn" download>Download</a>
+          <a id="pdfModalOpen" href="#" class="btn primary" target="_blank" rel="noreferrer">Open in New Tab</a>
+          <button class="pdf-modal-close" id="pdfModalClose" aria-label="Close viewer">&times;</button>
+        </div>
+      </div>
+      <div class="pdf-modal-body">
+        <iframe id="pdfIframe" src="" width="100%" height="100%" style="border: none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img class="footer-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+        <span>CVVR Lab</span>
+      </div>
+      <div class="footer-text">
+        <p>Computer Vision and Virtual Reality Lab, Department of Avionics, IIST</p>
+        <p>Valiamala, Thiruvananthapuram, Kerala 695547, India</p>
+        <p>&copy; <span id="year"></span> CVVR Lab. Built for GitHub Pages.</p>
+        <nav class="footer-nav" style="margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a>
+          <a href="facilities.html">Lab</a>
+          <a href="resources.html">Resources</a>
+          <a href="people.html">People</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/resources.js"></script>
+</body>
+</html>
