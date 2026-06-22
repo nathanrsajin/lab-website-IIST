@@ -57,6 +57,16 @@
         "links": [
           { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=qPyFnlAAAAAJ&hl=en" }
         ]
+      },
+      {
+        "name": "Vivek Kumar Singh",
+        "initials": "VS",
+        "role": "Postdoctoral Fellow",
+        "photo": "assets/images/people/vivek-kumar-singh.jpg",
+        "researchArea": "Signal analysis, time-frequency analysis, and biomedical signal processing.",
+        "links": [
+          { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=jv4rukwAAAAJ&hl=en" }
+        ]
       }
     ]
   },
