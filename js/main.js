@@ -98,7 +98,8 @@ function drawStarfield() {
       }
       ctx.beginPath();
       ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(240, 244, 255, ${star.a})`;
+      const isLight = document.documentElement.getAttribute("data-theme") === "light";
+      ctx.fillStyle = isLight ? `rgba(15, 23, 42, ${star.a * 0.8})` : `rgba(240, 244, 255, ${star.a})`;
       ctx.fill();
     });
     requestAnimationFrame(frame);
@@ -480,3 +481,29 @@ renderFacilities();
 renderCourses();
 initHeroSlideshow();
 initLightbox();
+
+// 14. Theme Toggle Logic
+function initThemeToggle() {
+  const toggleBtn = $("#themeToggle");
+  if (!toggleBtn) return;
+  
+  const currentTheme = localStorage.getItem("theme");
+  const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+  
+  if (currentTheme === "light" || (!currentTheme && prefersLight)) {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
+  
+  toggleBtn.addEventListener("click", () => {
+    const isLight = document.documentElement.getAttribute("data-theme") === "light";
+    if (isLight) {
+      document.documentElement.removeAttribute("data-theme");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.setAttribute("data-theme", "light");
+      localStorage.setItem("theme", "light");
+    }
+  });
+}
+
+initThemeToggle();
