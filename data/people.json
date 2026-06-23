@@ -127,14 +127,6 @@
         "role": "MTech Scholar (Avionics)",
         "researchArea": "Visual object tracking and depth mapping from stereo cameras.",
         "links": []
-      },
-      {
-        "name": "BTech Intern",
-        "initials": "BI",
-        "role": "Undergraduate Researcher",
-        "researchArea": "OpenCV-based real-time object tracking prototype.",
-        "links": []
-      }
     ]
   },
   {
