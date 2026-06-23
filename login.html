@@ -76,8 +76,7 @@
   </div>
 
   <script type="module">
-    import { handleSignIn, submitAccessRequest, handleSignOut, auth } from './js/auth.js';
-    import { isPlaceholder } from './js/firebase-init.js';
+    import { handleSignIn, submitAccessRequest, handleSignOut, auth, isPlaceholder, handleRedirectResult } from './js/auth.js';
     import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 
     const googleBtn = document.getElementById('googleSignInBtn');
@@ -102,24 +101,60 @@
 
     // Handle sign-in flow
     googleBtn.addEventListener('click', async () => {
-      if (isPlaceholder) return; // Don't attempt sign-in with fake config
+      console.log("Google Sign In button clicked");
+      if (isPlaceholder) {
+        console.error("Firebase Auth not initialized: placeholder credentials detected.");
+        return;
+      }
+      if (auth) {
+        console.log("Firebase Auth initialized");
+      } else {
+        console.error("Firebase Auth is not initialized!");
+        loginError.textContent = "Firebase configuration error: Auth SDK not initialized.";
+        loginError.style.display = 'block';
+        return;
+      }
+      console.log("Starting Google authentication");
       try {
         loginError.style.display = 'none';
         const result = await handleSignIn();
         
-        if (result.status === "approved") {
+        if (result && result.status === "approved") {
           window.location.href = "members.html";
-        } else if (result.status === "pending") {
+        } else if (result && result.status === "pending") {
           authSection.style.display = 'none';
           requestSection.style.display = 'block';
           emailInput.value = result.user.email;
           if (result.user.displayName) nameInput.value = result.user.displayName;
         }
       } catch (err) {
-        loginError.textContent = "Failed to sign in: " + err.message;
+        console.error("Google Authentication failed:", err);
+        loginError.textContent = "Authentication failed: " + (err.message || err);
         loginError.style.display = 'block';
       }
     });
+
+    // Process redirect result on page load
+    (async () => {
+      try {
+        const result = await handleRedirectResult();
+        if (result) {
+          console.log("Redirect login successful:", result);
+          if (result.status === "approved") {
+            window.location.href = "members.html";
+          } else if (result.status === "pending") {
+            authSection.style.display = 'none';
+            requestSection.style.display = 'block';
+            emailInput.value = result.user.email;
+            if (result.user.displayName) nameInput.value = result.user.displayName;
+          }
+        }
+      } catch (err) {
+        console.error("Error processing redirect sign-in:", err);
+        loginError.textContent = "Authentication failed: " + (err.message || err);
+        loginError.style.display = 'block';
+      }
+    })();
 
     requestForm.addEventListener('submit', async (e) => {
       e.preventDefault();
