@@ -1,4 +1,4 @@
-import { auth, db } from "./firebase-init.js";
+import { auth, db, isPlaceholder } from "./firebase-init.js";
 import { 
   GoogleAuthProvider, 
   signInWithPopup, 
@@ -120,12 +120,23 @@ export async function submitAccessRequest(requestData) {
  */
 export function protectRoute(requireAdmin = false) {
   console.log("Firebase initialized");
+  
+  // IMMEDIATE FAIL if config is placeholder — do NOT attempt auth
+  if (isPlaceholder) {
+    console.error("protectRoute: Firebase config contains placeholder values. Cannot authenticate.");
+    return Promise.reject(new Error(
+      "CONFIG_ERROR: Firebase configuration in js/firebase-init.js contains placeholder values (YOUR_API_KEY, etc.). " +
+      "Replace them with your real Firebase project credentials from the Firebase Console → Project Settings."
+    ));
+  }
+
   console.log("Auth listener started");
   
   return new Promise((resolve, reject) => {
     // 10 second timeout protection
     const timeoutId = setTimeout(() => {
-      reject(new Error("AUTH_TIMEOUT"));
+      console.error("protectRoute: Auth listener did not fire within 10 seconds.");
+      reject(new Error("AUTH_TIMEOUT: Authentication took too long. Check your network connection and Firebase project configuration."));
     }, 10000);
 
     onAuthStateChanged(auth, async (user) => {
@@ -133,6 +144,7 @@ export function protectRoute(requireAdmin = false) {
       console.log("User detected:", user);
       
       if (!user) {
+        console.log("No user signed in. Redirecting to login.");
         window.location.href = "login.html";
         return;
       }
@@ -142,7 +154,7 @@ export function protectRoute(requireAdmin = false) {
         const userRecord = await getUserRecord(user.uid);
         
         if (!userRecord) {
-          console.error("No user record found in Firestore.");
+          console.error("No user record found in Firestore for UID:", user.uid);
           window.location.href = "login.html";
           return;
         }
@@ -150,12 +162,14 @@ export function protectRoute(requireAdmin = false) {
         console.log("Role found:", userRecord.role);
 
         if (userRecord.status !== "approved") {
+          console.log("User status is not approved:", userRecord.status);
           window.location.href = "login.html?status=pending";
           return;
         }
 
         if (requireAdmin && userRecord.role !== "admin") {
-          window.location.href = "members.html"; // Redirect non-admins to members portal
+          console.log("Admin required but user role is:", userRecord.role);
+          window.location.href = "members.html";
           return;
         }
         

@@ -77,6 +77,7 @@
 
   <script type="module">
     import { handleSignIn, submitAccessRequest, handleSignOut, auth } from './js/auth.js';
+    import { isPlaceholder } from './js/firebase-init.js';
     import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 
     const googleBtn = document.getElementById('googleSignInBtn');
@@ -88,8 +89,20 @@
     const nameInput = document.getElementById('reqFullName');
     const loginError = document.getElementById('loginError');
 
+    // Show config error immediately if placeholder
+    if (isPlaceholder) {
+      loginError.textContent = 
+        "Firebase configuration error: js/firebase-init.js contains placeholder values (YOUR_API_KEY). " +
+        "Replace them with your real Firebase project credentials to enable authentication.";
+      loginError.style.display = 'block';
+      googleBtn.disabled = true;
+      googleBtn.style.opacity = '0.5';
+      googleBtn.style.cursor = 'not-allowed';
+    }
+
     // Handle sign-in flow
     googleBtn.addEventListener('click', async () => {
+      if (isPlaceholder) return; // Don't attempt sign-in with fake config
       try {
         loginError.style.display = 'none';
         const result = await handleSignIn();
@@ -97,16 +110,13 @@
         if (result.status === "approved") {
           window.location.href = "members.html";
         } else if (result.status === "pending") {
-          // If they are pending and it's their first time, show request form
-          // Note: we'll check if they already submitted a request via Firestore or just show pending if they have one.
-          // For simplicity, if they aren't IIST and status is pending, show request form.
           authSection.style.display = 'none';
           requestSection.style.display = 'block';
           emailInput.value = result.user.email;
           if (result.user.displayName) nameInput.value = result.user.displayName;
         }
       } catch (err) {
-        loginError.textContent = "Failed to sign in. Please try again.";
+        loginError.textContent = "Failed to sign in: " + err.message;
         loginError.style.display = 'block';
       }
     });

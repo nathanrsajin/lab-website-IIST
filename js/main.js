@@ -509,8 +509,8 @@ function initThemeToggle() {
 initThemeToggle();
 
 // 15. Initialize Global Auth State for Members Portal
-import('./auth.js').then(module => {
+import('./js/auth.js').then(module => {
   if (module.initGlobalAuthState) {
     module.initGlobalAuthState();
   }
-}).catch(err => console.error("Failed to load auth module", err));
+}).catch(err => console.warn("Auth module not loaded (expected on non-portal pages):", err.message));

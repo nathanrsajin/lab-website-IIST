@@ -44,6 +44,26 @@
       <style>@keyframes spin { 100% { transform: rotate(360deg); } }</style>
     </div>
 
+    <!-- SAFETY NET: Guarantees loading screen cannot hang forever -->
+    <script>
+      (function() {
+        window.__portalAuthResolved = false;
+        setTimeout(function() {
+          if (window.__portalAuthResolved) return;
+          var spinner = document.getElementById('spinnerAnim');
+          var text = document.getElementById('loadingText');
+          var actions = document.getElementById('timeoutActions');
+          if (spinner) spinner.style.display = 'none';
+          if (actions) actions.style.display = 'flex';
+          if (text) {
+            text.textContent = 'Authentication failed. This is usually caused by missing Firebase configuration. '
+              + 'Open js/firebase-init.js and replace the placeholder values (YOUR_API_KEY, etc.) with your real Firebase project credentials.';
+            text.style.color = '#e74c3c';
+          }
+        }, 8000);
+      })();
+    </script>
+
     <section class="section" id="portalContent" style="display: none;">
       <div class="dashboard-header">
         <div>
@@ -158,6 +178,7 @@
 
     // Protect route with requireAdmin = true
     protectRoute(true).then(({ user }) => {
+      window.__portalAuthResolved = true;
       document.getElementById('loadingSpinner').style.display = 'none';
       document.getElementById('portalContent').style.display = 'block';
       document.getElementById('userName').textContent = user.displayName || user.email;
@@ -165,14 +186,23 @@
       loadUsers();
       loadAdmins();
     }).catch(err => {
+      window.__portalAuthResolved = true;
       console.error("Auth check failed:", err);
-      if (err.message === "AUTH_TIMEOUT") {
-        document.getElementById('spinnerAnim').style.display = 'none';
-        document.getElementById('loadingText').textContent = 'Authentication timeout detected. Please verify your Firebase configuration and network connection.';
-        document.getElementById('timeoutActions').style.display = 'flex';
+      document.getElementById('spinnerAnim').style.display = 'none';
+      document.getElementById('timeoutActions').style.display = 'flex';
+      
+      if (err.message && err.message.startsWith("CONFIG_ERROR")) {
+        document.getElementById('loadingText').textContent = 
+          'Firebase configuration error: The file js/firebase-init.js contains placeholder values (YOUR_API_KEY). ' +
+          'Replace them with your real Firebase project credentials to enable authentication.';
+        document.getElementById('loadingText').style.color = '#e74c3c';
+      } else if (err.message && err.message.startsWith("AUTH_TIMEOUT")) {
+        document.getElementById('loadingText').textContent = 
+          'Authentication timeout. Check your network connection and verify your Firebase project is correctly configured.';
+        document.getElementById('loadingText').style.color = '#e74c3c';
       } else {
-        document.getElementById('spinnerAnim').style.display = 'none';
-        document.getElementById('loadingText').textContent = 'Authentication error: ' + err.message;
+        document.getElementById('loadingText').textContent = 'Authentication failed: ' + (err.message || err);
+        document.getElementById('loadingText').style.color = '#e74c3c';
       }
     });
 

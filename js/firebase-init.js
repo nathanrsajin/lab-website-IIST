@@ -13,7 +13,27 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 
-export const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
-export const db = getFirestore(app);
-export const storage = getStorage(app);
+// Detect placeholder configuration and warn immediately
+const isPlaceholder = firebaseConfig.apiKey.startsWith("YOUR_");
+if (isPlaceholder) {
+  console.error(
+    "%c[FIREBASE CONFIG ERROR] firebase-init.js contains placeholder values. " +
+    "Replace YOUR_API_KEY, YOUR_AUTH_DOMAIN, etc. with real Firebase project credentials. " +
+    "Authentication WILL NOT WORK until this is done.",
+    "color: red; font-weight: bold; font-size: 14px;"
+  );
+}
+
+let app, auth, db, storage;
+try {
+  app = initializeApp(firebaseConfig);
+  auth = getAuth(app);
+  db = getFirestore(app);
+  storage = getStorage(app);
+  console.log("Firebase SDK initialized", isPlaceholder ? "(WARNING: using placeholder config)" : "(config OK)");
+} catch (err) {
+  console.error("Firebase initialization FAILED:", err);
+  throw err;
+}
+
+export { app, auth, db, storage, isPlaceholder };
