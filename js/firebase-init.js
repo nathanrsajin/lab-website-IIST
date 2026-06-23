@@ -5,12 +5,12 @@ import { getStorage } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-s
 
 // TODO: Replace with actual Firebase project configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyA75PEBr3-U1gKqXK_sEo4E5nrnaQYdzIE",
+  authDomain: "cvvr-lab.firebaseapp.com",
+  projectId: "cvvr-lab",
+  storageBucket: "cvvr-lab.firebasestorage.app",
+  messagingSenderId: "694573147723",
+  appId: "1:694573147723:web:38dee43d7d568570494fce"
 };
 
 // Detect placeholder configuration and warn immediately
