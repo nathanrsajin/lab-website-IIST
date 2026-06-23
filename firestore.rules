@@ -27,5 +27,11 @@ service cloud.firestore {
       // Admins can read/write all requests. Users can only read their own.
       allow read, update, delete: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
     }
+    
+    match /files/{fileId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.resource.data.uploadedBy == request.auth.uid;
+      allow update, delete: if isAdmin() || (request.auth != null && resource.data.uploadedBy == request.auth.uid);
+    }
   }
 }
