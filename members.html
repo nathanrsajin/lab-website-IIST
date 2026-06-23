@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Members Portal | CVVR Lab</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/portal.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <span>CVVR Lab</span>
+    </a>
+    
+    <div class="header-controls">
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="facilities.html">Lab</a>
+        <a href="resources.html">Resources</a>
+        <a href="members.html" class="active">Members Portal</a>
+        <a href="admin.html" id="adminLinkContainer" style="display: none;">Admin Dashboard</a>
+        <a href="people.html">People</a>
+        <a href="teaching.html">Teaching</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle">Menu</button>
+    </div>
+  </header>
+
+  <main style="padding-top: 100px; min-height: 80vh;">
+    <section class="section">
+      <div class="dashboard-header">
+        <div>
+          <p class="eyebrow">Internal Access Only</p>
+          <h2>Members Portal</h2>
+        </div>
+        <div class="user-profile">
+          <div class="user-info text-right" style="text-align: right;">
+            <strong id="userName">Loading...</strong>
+            <span id="userRole" class="user-role-badge">Member</span>
+          </div>
+          <button id="signOutBtn" class="btn text-link">Sign Out</button>
+        </div>
+      </div>
+
+      <div class="dashboard-actions" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <div class="search-bar" style="flex: 1; max-width: 400px; position: relative;">
+          <input type="text" placeholder="Search datasets, documents..." style="width: 100%; padding: 0.6rem 1rem; border-radius: 20px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text);">
+        </div>
+        <div class="category-filters" style="display: flex; gap: 0.5rem;">
+          <button class="btn btn-sm tag" style="background: var(--card-bg);">All</button>
+          <button class="btn btn-sm tag">Datasets</button>
+          <button class="btn btn-sm tag">Documents</button>
+        </div>
+      </div>
+
+      <div class="dashboard-grid">
+        <!-- Internal Datasets -->
+        <article class="dashboard-card card glow-card">
+          <div class="icon">📊</div>
+          <h3>Internal Datasets</h3>
+          <p>Proprietary hyperspectral and thermal imagery datasets collected from IIST hardware setups.</p>
+          <div class="card-actions">
+            <button class="btn btn-sm">Browse Files</button>
+            <button class="btn btn-sm primary">Upload</button>
+          </div>
+        </article>
+
+        <!-- Research Presentations -->
+        <article class="dashboard-card card glow-card">
+          <div class="icon">🖥️</div>
+          <h3>Research Presentations</h3>
+          <p>Slide decks from past group meetings, thesis defenses, and international conference talks.</p>
+          <div class="card-actions">
+            <button class="btn btn-sm">View Archive</button>
+          </div>
+        </article>
+
+        <!-- Project Documentation -->
+        <article class="dashboard-card card glow-card">
+          <div class="icon">📁</div>
+          <h3>Project Documentation</h3>
+          <p>Internal specs, architectural designs, and progress reports for ISRO funded projects.</p>
+          <div class="card-actions">
+            <button class="btn btn-sm">Open Folder</button>
+          </div>
+        </article>
+
+        <!-- Meeting Minutes -->
+        <article class="dashboard-card card glow-card">
+          <div class="icon">📝</div>
+          <h3>Meeting Minutes</h3>
+          <p>Logs and action items from weekly PI meetings and research scholar syncs.</p>
+          <div class="card-actions">
+            <button class="btn btn-sm">Read Notes</button>
+          </div>
+        </article>
+
+        <!-- Publications Drafts -->
+        <article class="dashboard-card card glow-card">
+          <div class="icon">📄</div>
+          <h3>Publications Drafts</h3>
+          <p>Ongoing manuscript drafts (LaTeX sources), rebuttals, and reviewer comments.</p>
+          <div class="card-actions">
+            <button class="btn btn-sm">Access Drafts</button>
+          </div>
+        </article>
+
+        <!-- Lab Administration Files -->
+        <article class="dashboard-card card glow-card">
+          <div class="icon">⚙️</div>
+          <h3>Lab Admin Files</h3>
+          <p>Purchase indents, equipment manuals, computing cluster IPs, and shared passwords.</p>
+          <div class="card-actions">
+            <button class="btn btn-sm">View Secrets</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img class="footer-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+        <span>CVVR Lab</span>
+      </div>
+      <div class="footer-text">
+        <p>&copy; <span id="year"></span> CVVR Lab.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script type="module">
+    import { protectRoute, handleSignOut, auth } from './js/auth.js';
+
+    // Protect route: Redirects if not logged in or not approved
+    protectRoute().then(({ user, userRecord }) => {
+      document.getElementById('userName').textContent = user.displayName || user.email;
+      document.getElementById('userRole').textContent = userRecord.role;
+      
+      // If admin, show Admin Dashboard link
+      if (userRecord.role === "admin") {
+        document.getElementById('adminLinkContainer').style.display = 'inline-block';
+      }
+    });
+
+    document.getElementById('signOutBtn').addEventListener('click', handleSignOut);
+  </script>
+</body>
+</html>

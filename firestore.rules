@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Check if the user's email exists in the admins collection
+    function isAdmin() {
+      return exists(/databases/$(database)/documents/admins/$(request.auth.token.email));
+    }
+    
+    match /admins/{adminEmail} {
+      // Any authenticated user can read the admins collection
+      allow read: if request.auth != null;
+      // Only existing admins can write to the admins collection
+      // Note: The very first admin must be created either temporarily bypassing this rule 
+      // or via the Firebase Console directly.
+      allow write: if isAdmin();
+    }
+    
+    match /users/{userId} {
+      // Users can read/write their own document. Admins can read/write all.
+      allow read, write: if request.auth != null && (request.auth.uid == userId || isAdmin());
+    }
+    
+    match /requests/{requestId} {
+      // Anyone authenticated can create a request for themselves
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      // Admins can read/write all requests. Users can only read their own.
+      allow read, update, delete: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
+    }
+  }
+}

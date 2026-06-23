@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard | CVVR Lab</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/portal.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+      <span>CVVR Lab Admin</span>
+    </a>
+    
+    <div class="header-controls">
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="members.html">Members Portal</a>
+        <a href="admin.html" class="active">Admin Dashboard</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <main style="padding-top: 100px; min-height: 80vh;">
+    <section class="section">
+      <div class="dashboard-header">
+        <div>
+          <p class="eyebrow">Administrator Portal</p>
+          <h2>Admin Dashboard</h2>
+        </div>
+        <div class="user-profile">
+          <div class="user-info text-right" style="text-align: right;">
+            <strong id="userName">Loading...</strong>
+            <span class="user-role-badge">Super Admin</span>
+          </div>
+          <button id="signOutBtn" class="btn text-link">Sign Out</button>
+        </div>
+      </div>
+
+      <!-- Pending Access Requests -->
+      <div class="card glow-card" style="margin-top: 2rem;">
+        <h3 style="margin-bottom: 1rem;">Pending Access Requests</h3>
+        <p class="small-meta">Review and approve external collaborator access to the Members Portal.</p>
+        
+        <div class="table-container">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Name & Email</th>
+                <th>Institution</th>
+                <th>Purpose</th>
+                <th>Reference</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="requestsTableBody">
+              <tr>
+                <td colspan="5" class="text-center" style="padding: 2rem; color: var(--muted);">Loading requests...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Registered Users -->
+      <div class="card glow-card" style="margin-top: 2rem;">
+        <h3 style="margin-bottom: 1rem;">User Management</h3>
+        <p class="small-meta">Manage roles and revoke access for registered portal members.</p>
+        
+        <div class="table-container">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="usersTableBody">
+              <tr>
+                <td colspan="4" class="text-center" style="padding: 2rem; color: var(--muted);">Loading users...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Administrator Management -->
+      <div class="card glow-card" style="margin-top: 2rem;">
+        <h3 style="margin-bottom: 1rem;">Administrator Management</h3>
+        <p class="small-meta">Manage administrators who have access to this dashboard.</p>
+        
+        <div style="margin-bottom: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+          <input type="email" id="newAdminEmail" placeholder="New Admin Email" style="padding: 0.6rem; border: 1px solid var(--border); background: var(--bg); color: var(--text); border-radius: 4px; min-width: 250px;">
+          <button class="btn btn-sm primary" id="addAdminBtn">Add Administrator</button>
+        </div>
+
+        <div class="table-container">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Admin Email</th>
+                <th>Added On</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="adminsTableBody">
+              <tr>
+                <td colspan="3" class="text-center" style="padding: 2rem; color: var(--muted);">Loading admins...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img class="footer-logo" src="images/logo.svg" alt="CVVR Lab Logo">
+        <span>CVVR Lab Admin</span>
+      </div>
+      <div class="footer-text">
+        <p>&copy; <span id="year"></span> CVVR Lab.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script type="module">
+    import { protectRoute, handleSignOut, auth, db } from './js/auth.js';
+    import { collection, query, where, getDocs, doc, updateDoc, setDoc, deleteDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+
+    // Protect route with requireAdmin = true
+    protectRoute(true).then(({ user }) => {
+      document.getElementById('userName').textContent = user.displayName || user.email;
+      loadPendingRequests();
+      loadUsers();
+      loadAdmins();
+    });
+
+    document.getElementById('signOutBtn').addEventListener('click', handleSignOut);
+
+    // Make global functions for inline buttons
+    window.approveRequest = async (requestId, userId) => {
+      if (!confirm("Approve this collaborator?")) return;
+      try {
+        await updateDoc(doc(db, "requests", requestId), { status: "approved" });
+        await updateDoc(doc(db, "users", userId), { status: "approved", role: "collaborator" });
+        loadPendingRequests();
+        loadUsers();
+      } catch (e) { alert("Error approving: " + e.message); }
+    };
+
+    window.rejectRequest = async (requestId, userId) => {
+      if (!confirm("Reject this collaborator?")) return;
+      try {
+        await updateDoc(doc(db, "requests", requestId), { status: "rejected" });
+        await updateDoc(doc(db, "users", userId), { status: "rejected" });
+        loadPendingRequests();
+      } catch (e) { alert("Error rejecting: " + e.message); }
+    };
+
+    window.revokeAccess = async (userId) => {
+      if (!confirm("Revoke access for this user?")) return;
+      try {
+        await updateDoc(doc(db, "users", userId), { status: "revoked" });
+        loadUsers();
+      } catch (e) { alert("Error revoking: " + e.message); }
+    };
+
+    window.removeAdmin = async (adminEmail) => {
+      if (!confirm(`Are you sure you want to remove ${adminEmail} from administrators?`)) return;
+      try {
+        const adminsSnapshot = await getDocs(collection(db, "admins"));
+        if (adminsSnapshot.size <= 1) {
+          alert("Action Denied: You cannot remove the last remaining administrator.");
+          return;
+        }
+        await deleteDoc(doc(db, "admins", adminEmail));
+        loadAdmins();
+      } catch (e) { alert("Error removing admin: " + e.message); }
+    };
+
+    window.transferOwnership = async (adminEmail) => {
+      const newOwner = prompt("Enter the email address of the new owner. They will become an admin, and YOU will be removed from admins.");
+      if (!newOwner) return;
+      try {
+        // Add new owner
+        await setDoc(doc(db, "admins", newOwner), {
+          email: newOwner,
+          name: "",
+          role: "admin",
+          createdAt: serverTimestamp()
+        });
+        // Remove current owner
+        await deleteDoc(doc(db, "admins", adminEmail));
+        alert("Ownership transferred successfully. You will now be signed out.");
+        handleSignOut();
+      } catch (e) { alert("Error transferring ownership: " + e.message); }
+    };
+
+    document.getElementById('addAdminBtn').addEventListener('click', async () => {
+      const emailInput = document.getElementById('newAdminEmail');
+      const email = emailInput.value.trim();
+      if (!email) return;
+      try {
+        await setDoc(doc(db, "admins", email), {
+          email: email,
+          name: "",
+          role: "admin",
+          createdAt: serverTimestamp()
+        });
+        emailInput.value = "";
+        loadAdmins();
+      } catch (e) { alert("Error adding admin: " + e.message); }
+    });
+
+    async function loadPendingRequests() {
+      const tbody = document.getElementById('requestsTableBody');
+      const q = query(collection(db, "requests"), where("status", "==", "pending"));
+      const querySnapshot = await getDocs(q);
+      
+      if (querySnapshot.empty) {
+        tbody.innerHTML = '<tr><td colspan="5" class="text-center" style="padding: 2rem; color: var(--muted);">No pending requests.</td></tr>';
+        return;
+      }
+
+      let html = '';
+      querySnapshot.forEach((d) => {
+        const data = d.data();
+        html += `
+          <tr>
+            <td>
+              <strong>${data.fullName}</strong><br>
+              <span style="font-size: 0.85rem; color: var(--muted);">${data.email}</span>
+            </td>
+            <td>${data.institution}<br><span style="font-size: 0.85rem; color: var(--muted);">${data.designation}</span></td>
+            <td style="max-width: 250px;">${data.purpose}</td>
+            <td>${data.reference || '-'}</td>
+            <td>
+              <div class="action-btns">
+                <button class="btn btn-sm btn-success" onclick="approveRequest('${d.id}', '${data.userId}')">Approve</button>
+                <button class="btn btn-sm btn-danger" onclick="rejectRequest('${d.id}', '${data.userId}')">Reject</button>
+              </div>
+            </td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    async function loadUsers() {
+      const tbody = document.getElementById('usersTableBody');
+      const querySnapshot = await getDocs(collection(db, "users"));
+      
+      let html = '';
+      querySnapshot.forEach((d) => {
+        const data = d.data();
+        html += `
+          <tr>
+            <td>${data.email}</td>
+            <td><span class="user-role-badge">${data.role}</span></td>
+            <td>${data.status}</td>
+            <td>
+              <div class="action-btns">
+                ${data.role !== 'admin' && data.status === 'approved' ? `<button class="btn btn-sm btn-danger" onclick="revokeAccess('${d.id}')">Revoke</button>` : '-'}
+              </div>
+            </td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    async function loadAdmins() {
+      const tbody = document.getElementById('adminsTableBody');
+      const querySnapshot = await getDocs(collection(db, "admins"));
+      
+      let html = '';
+      querySnapshot.forEach((d) => {
+        const data = d.data();
+        const isSelf = data.email === auth.currentUser?.email;
+        html += `
+          <tr>
+            <td>
+              <strong>${data.email}</strong> ${isSelf ? '<span class="user-role-badge" style="margin-left:8px;">You</span>' : ''}
+            </td>
+            <td>${data.createdAt ? new Date(data.createdAt.toMillis ? data.createdAt.toMillis() : data.createdAt).toLocaleDateString() : 'N/A'}</td>
+            <td>
+              <div class="action-btns">
+                <button class="btn btn-sm btn-danger" onclick="removeAdmin('${data.email}')">Remove</button>
+                ${isSelf ? `<button class="btn btn-sm" onclick="transferOwnership('${data.email}')">Transfer Ownership</button>` : ''}
+              </div>
+            </td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+  </script>
+</body>
+</html>
