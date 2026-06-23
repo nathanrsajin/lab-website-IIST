@@ -71,9 +71,12 @@
           <h2>Admin Dashboard</h2>
         </div>
         <div class="user-profile">
+          <img id="userAvatarImg" class="user-avatar" src="" alt="Profile Image" style="display: none; object-fit: cover;">
+          <div id="userAvatarFallback" class="user-avatar" style="display: none;"></div>
           <div class="user-info text-right" style="text-align: right;">
             <strong id="userName">Loading...</strong>
-            <span class="user-role-badge">Super Admin</span>
+            <span id="userEmail" style="font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem;"></span>
+            <div><span id="userRole" class="user-role-badge">Admin</span></div>
           </div>
           <button id="signOutBtn" class="btn text-link">Sign Out</button>
         </div>
@@ -98,6 +101,39 @@
             <tbody id="requestsTableBody">
               <tr>
                 <td colspan="5" class="text-center" style="padding: 2rem; color: var(--muted);">Loading requests...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Authorized Users Management -->
+      <div class="card glow-card" style="margin-top: 2rem;">
+        <h3 style="margin-bottom: 1rem;">Authorized Users Management</h3>
+        <p class="small-meta">Manage the list of authorized emails allowed to access the Members Portal.</p>
+        
+        <div style="margin-bottom: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+          <input type="email" id="newAuthEmail" placeholder="User Email" style="padding: 0.6rem; border: 1px solid var(--border); background: var(--bg); color: var(--text); border-radius: 4px; min-width: 250px;">
+          <select id="newAuthRole" style="padding: 0.6rem; border: 1px solid var(--border); background: var(--bg); color: var(--text); border-radius: 4px;">
+            <option value="member">Member</option>
+            <option value="collaborator">Collaborator</option>
+          </select>
+          <button class="btn btn-sm primary" id="addAuthUserBtn">Add Authorized User</button>
+        </div>
+
+        <div class="table-container">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Added On</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="authUsersTableBody">
+              <tr>
+                <td colspan="4" class="text-center" style="padding: 2rem; color: var(--muted);">Loading authorized users...</td>
               </tr>
             </tbody>
           </table>
@@ -177,26 +213,37 @@
     import { collection, query, where, getDocs, doc, updateDoc, setDoc, deleteDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
     // Protect route with requireAdmin = true
-    protectRoute(true).then(({ user }) => {
+    protectRoute(true).then(({ user, userRecord }) => {
       window.__portalAuthResolved = true;
       document.getElementById('loadingSpinner').style.display = 'none';
       document.getElementById('portalContent').style.display = 'block';
       document.getElementById('userName').textContent = user.displayName || user.email;
+      document.getElementById('userEmail').textContent = user.email;
+      
+      const avatarImg = document.getElementById('userAvatarImg');
+      const avatarFallback = document.getElementById('userAvatarFallback');
+      if (user.photoURL) {
+        avatarImg.src = user.photoURL;
+        avatarImg.style.display = 'block';
+        avatarFallback.style.display = 'none';
+      } else {
+        avatarImg.style.display = 'none';
+        const initial = (user.displayName || user.email || 'U').charAt(0).toUpperCase();
+        avatarFallback.textContent = initial;
+        avatarFallback.style.display = 'flex';
+      }
+
       loadPendingRequests();
       loadUsers();
       loadAdmins();
+      loadAuthorizedUsers();
     }).catch(err => {
       window.__portalAuthResolved = true;
       console.error("Auth check failed:", err);
       document.getElementById('spinnerAnim').style.display = 'none';
       document.getElementById('timeoutActions').style.display = 'flex';
       
-      if (err.message && err.message.startsWith("CONFIG_ERROR")) {
-        document.getElementById('loadingText').textContent = 
-          'Firebase configuration error: The file js/firebase-init.js contains placeholder values (YOUR_API_KEY). ' +
-          'Replace them with your real Firebase project credentials to enable authentication.';
-        document.getElementById('loadingText').style.color = '#e74c3c';
-      } else if (err.message && err.message.startsWith("AUTH_TIMEOUT")) {
+      if (err.message && err.message.startsWith("AUTH_TIMEOUT")) {
         document.getElementById('loadingText').textContent = 
           'Authentication timeout. Check your network connection and verify your Firebase project is correctly configured.';
         document.getElementById('loadingText').style.color = '#e74c3c';
@@ -282,6 +329,61 @@
         loadAdmins();
       } catch (e) { alert("Error adding admin: " + e.message); }
     });
+
+    // Authorized Users Management Handlers
+    document.getElementById('addAuthUserBtn').addEventListener('click', async () => {
+      const emailInput = document.getElementById('newAuthEmail');
+      const roleSelect = document.getElementById('newAuthRole');
+      const email = emailInput.value.trim();
+      const role = roleSelect.value;
+      if (!email) return;
+      try {
+        await setDoc(doc(db, "authorizedUsers", email), {
+          email: email,
+          role: role,
+          addedAt: serverTimestamp(),
+          addedBy: auth.currentUser?.email || "admin"
+        });
+        emailInput.value = "";
+        loadAuthorizedUsers();
+      } catch (e) { alert("Error adding authorized user: " + e.message); }
+    });
+
+    window.removeAuthorizedUser = async (email) => {
+      if (!confirm(`Are you sure you want to remove authorized user: ${email}?`)) return;
+      try {
+        await deleteDoc(doc(db, "authorizedUsers", email));
+        loadAuthorizedUsers();
+      } catch (e) { alert("Error removing authorized user: " + e.message); }
+    };
+
+    async function loadAuthorizedUsers() {
+      const tbody = document.getElementById('authUsersTableBody');
+      const querySnapshot = await getDocs(collection(db, "authorizedUsers"));
+      
+      if (querySnapshot.empty) {
+        tbody.innerHTML = '<tr><td colspan="4" class="text-center" style="padding: 2rem; color: var(--muted);">No authorized users.</td></tr>';
+        return;
+      }
+
+      let html = '';
+      querySnapshot.forEach((d) => {
+        const data = d.data();
+        html += `
+          <tr>
+            <td><strong>${data.email}</strong></td>
+            <td><span class="user-role-badge">${data.role || 'member'}</span></td>
+            <td>${data.addedAt ? new Date(data.addedAt.toMillis ? data.addedAt.toMillis() : data.addedAt).toLocaleDateString() : 'N/A'}</td>
+            <td>
+              <div class="action-btns">
+                <button class="btn btn-sm btn-danger" onclick="removeAuthorizedUser('${data.email}')">Remove</button>
+              </div>
+            </td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
 
     async function loadPendingRequests() {
       const tbody = document.getElementById('requestsTableBody');
