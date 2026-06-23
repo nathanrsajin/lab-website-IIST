@@ -119,31 +119,52 @@ export async function submitAccessRequest(requestData) {
  * Use requireAdmin=true for the Admin Dashboard.
  */
 export function protectRoute(requireAdmin = false) {
-  return new Promise((resolve) => {
+  console.log("Firebase initialized");
+  console.log("Auth listener started");
+  
+  return new Promise((resolve, reject) => {
+    // 10 second timeout protection
+    const timeoutId = setTimeout(() => {
+      reject(new Error("AUTH_TIMEOUT"));
+    }, 10000);
+
     onAuthStateChanged(auth, async (user) => {
+      clearTimeout(timeoutId);
+      console.log("User detected:", user);
+      
       if (!user) {
         window.location.href = "login.html";
         return;
       }
       
-      const userRecord = await getUserRecord(user.uid);
-      
-      if (!userRecord) {
-        window.location.href = "login.html";
-        return;
-      }
+      console.log("Checking user role");
+      try {
+        const userRecord = await getUserRecord(user.uid);
+        
+        if (!userRecord) {
+          console.error("No user record found in Firestore.");
+          window.location.href = "login.html";
+          return;
+        }
 
-      if (userRecord.status !== "approved") {
-        window.location.href = "login.html?status=pending";
-        return;
-      }
+        console.log("Role found:", userRecord.role);
 
-      if (requireAdmin && userRecord.role !== "admin") {
-        window.location.href = "members.html"; // Redirect non-admins to members portal
-        return;
+        if (userRecord.status !== "approved") {
+          window.location.href = "login.html?status=pending";
+          return;
+        }
+
+        if (requireAdmin && userRecord.role !== "admin") {
+          window.location.href = "members.html"; // Redirect non-admins to members portal
+          return;
+        }
+        
+        console.log("Rendering portal");
+        resolve({ user, userRecord });
+      } catch (err) {
+        console.error("Error verifying permissions:", err);
+        reject(err);
       }
-      
-      resolve({ user, userRecord });
     });
   });
 }
